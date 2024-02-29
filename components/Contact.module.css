@@ -1,0 +1,312 @@
+.cpage1{
+    width: 100%;
+    height: 60vh;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Gilroy";
+}
+.cpage1 h1{
+    font-family: "Gilroy";
+    font-size: 62px;
+    font-weight: 700;
+    color: #071c54;
+}
+.cpage1 p{
+color: silver;
+margin-top: -40px;
+}
+.cpage2{
+    width: 100%;
+    height: 100vh;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cpage2center{
+    width: 80%;
+    height:90%;
+    /* border: 3px solid red; */
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    /* background-color: aqua; */
+}
+.cpage2centerleft{
+    width: 40%;
+    height: 100%;
+    background-color: #071c54;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: #fff;
+    font-family: "Gilroy";
+    flex-direction: column;
+    padding: 60px;
+    gap: 25px;
+
+}
+.cpage2centerright{
+    width: 60%;
+    padding: 16px;
+    height: 115%;
+    background-color: #fff;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-family: "Gilroy";
+    color: #0000;
+    border: 4px solid #071c54;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+}
+.phonenumber{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.locate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icons{
+    width: 20vw;
+    margin-top: 155px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.icons img{
+background-color: #364774;
+border-radius: 50%;
+padding: 10px;
+}
+.oneinp{
+    width: 100%;
+    height: 12%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 22px;
+}
+
+.oneinp input{
+    border: none;
+    color: black;
+    outline: none;
+    width: 50%;
+    height: 100%;
+    /* background-color: salmon; */
+    padding: 2px;
+    border-bottom: 2px solid silver;
+}
+.twoinp{
+    width: 100%;
+    height: 12%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 22px;
+}
+
+.twoinp input{
+    border: none;
+    color: black;
+    outline: none;
+    width: 50%;
+    height: 100%;
+    /* background-color: salmon; */
+    padding: 2px;
+    border-bottom: 2px solid silver;
+}
+.threeinp{
+    width: 100%;
+    height: 12%;
+    /* background-color: aqua;    */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid silver;
+}
+.threeinp h4{
+    margin-left: -4px;
+}
+.threeinp select{
+    border: none;
+
+}
+.fourinp{
+    width: 100%;
+    height: 15%;
+    /* background-color: aqua;    */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.fourinpinside{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* background-color: green; */
+    gap: 3px;
+    
+}
+.fourinpinside h4{
+    font-size: 7.2px;
+}
+.fiveinp input{
+    border: none;
+    color: black;
+    outline: none;
+    width: 100%;
+    height: 90%;
+    /* background-color: salmon; */
+    padding: 2px;
+    border-bottom: 2px solid silver;
+    margin-top: 22px;
+}
+.fiveinp{
+    width: 100%;
+    height: 12%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: aqua;    */
+}
+.formsm{
+    width: 150px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 17px;
+    background: linear-gradient(to right, #0d3bbc, #11235d);
+    color: #fff;
+    font-weight: 500;
+    padding: 5px;
+    margin-top: 25px;
+    margin-bottom: -2px;
+    font-family: "Gilroy";
+}
+.cpage2centerright input[type="text"]::placeholder {
+    color: black; /* Set your desired color here */
+    font-weight: 700;
+    font-family: "Gilroy";
+  }
+  .cpage2centerright input[type="email"]::placeholder {
+    color: black; /* Set your desired color here */
+    font-weight: 700;
+    font-family: "Gilroy";
+  }
+  .cpage2centerright input[type="number"]::placeholder {
+    color: black; /* Set your desired color here */
+    font-weight: 700;
+    font-family: "Gilroy";
+  }
+
+  @media (max-width:568px) {
+.cpage1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: fit-content;
+    text-align: center;
+}
+.cpage2{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.cpage2center{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.cpage2centerleft{
+    width: 50%;
+    border-radius: 0px;
+    
+}
+.phonenumber{
+    font-size: 8px;
+}
+.mail{
+font-size: 8px;
+/* display: none; */
+}
+.locate{
+    font-size: 8px;
+}
+.cpage2centerright{
+    width: 80%;
+    border-radius: 30px;
+    margin-top: 20px;
+    /* display: none; */
+}
+.icons{
+    width: 100%;
+    gap: 6px;
+    /* background-color: red; */
+}
+
+.oneinp{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.twoinp{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.threeinp{
+    width: 100%;
+/* background-color: red; */
+}
+.threeinp h4{
+    font-size: 9px;
+    margin-left: 0px;
+}
+.fourinp{
+    /* background-color: red; */
+    padding-left: 0px;
+}
+
+  }

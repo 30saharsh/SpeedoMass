@@ -1,0 +1,456 @@
+.wdpage1{
+    width: 100%;
+    height: 100vh;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wdpage1left{
+    width: 40%;
+    height: 100%;
+    /* background-color: pink; */
+font-family: "Gilroy";
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 12px;
+justify-content: center;
+}
+.wdpage1right{
+    width: 40%;
+    height: 100%;
+    /* background-color:greenyellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wdpage1right img{
+    width: 90%;
+    height: 50%;
+}
+.wdpage1left h3{
+    color: orange;
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: -35px;
+}
+.wdpage1left h1{
+    color: #071c54;
+    font-size: 60px;
+    margin-bottom: -3px;
+}
+.wdpage1left p{
+    color: silver;
+    width: 40vw;
+    /* background-color: red; */
+    line-height: 22px;
+    font-size: 12px;
+}
+.dmoreweb{
+    width: 150px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 17px;
+    background: linear-gradient(to right, #0d3bbc, #11235d);
+    color: #fff;
+    font-weight: 500;
+    padding: 5px;
+    margin-top: 20px;
+    font-family: "Gilroy";
+}
+.wdpage2{
+    width: 100%;
+    height: 100vh;
+    /* background-color: #4e0000; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wdpage2left{
+    width: 30%;
+    height: 75%;
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wdpage2right{
+    width: 50%;
+    height: 75%;
+    /* background-color: green; */
+    font-family: "Gilroy";
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.wdpage2left img{
+    width: 75%;
+    height: 75%;
+}
+.wdpage2right h1{
+    color: #071c54;
+}
+.wdpage2right p{
+    color: silver;
+    line-height: 25px;
+    font-size: 15px;
+}
+.wdpage3{
+    width: 100%;
+    height: 10vh;
+    /* background-color: brown; */
+    font-family: "Gilroy";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+.numwh{
+    width: 17%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: rebeccapurple; */
+  
+}
+.number{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: center;
+}
+.number img{
+    width: 35px;
+    height: 35px;
+}
+.wdpage4{
+    width: 100%;
+    height: 100vh;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wdpage4center{
+    width: 80%;
+    height: 50%;
+    border-radius: 60px;
+    background: linear-gradient(to right, #0d3bbc, #11235d);
+}
+.wdpage4center
+{
+    font-family: "Gilroy";
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    align-items: center;
+    justify-content: center;
+}
+.wdpage4center p{
+    font-size: 11px;
+    text-align: center;
+    line-height: 23px;
+}
+.wdpage5{
+    width: 100%;
+    height: 100vh;
+    /* background-color: royalblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.wdpage5top{
+    width: 80%;
+    height: 10%;
+    /* background-color: rebeccapurple; */
+    font-family: "Gilroy";
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.wdpage5middle{
+    width: 80%;
+    height: 40%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 42px;
+    font-family: "Gilroy";
+}
+.wdpage5down{
+    width: 80%;
+    height: 40%;
+    /* background-color: yellow; */
+    font-family: "Gilroy";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 42px;
+}
+.box1{
+    width: 350px;
+    height: 150px;
+    border-radius: 20px;
+    background-color: #e8e8e8;
+}
+.box2{
+    z-index: 999;
+    margin-top:90px;
+    width: 350px;
+    height: 240px;
+    border-radius: 20px;
+    background-color: #e8e8e8;
+}
+
+
+
+
+
+.wdpage6{
+    width: 100%;
+    height: 100vh;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.wdpage6top{
+    width: 100%;
+    height: 10%;
+    /* background-color: red; */
+}
+.wdr{
+    margin-left: 11vw;
+}
+.wdpage6down{
+    width: 100%;
+    height: 80%;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slidercontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+
+  }
+  
+  .slider {
+    overflow: hidden;
+    width: 600px; /* Adjust the width as needed */
+  }
+  
+  .cards {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card {
+    box-sizing: border-box;
+    width: 50vw;
+    height: 40vh;
+border-radius: 30px;
+    color: #fff; /* Adjust the text color as needed */
+    border: 1px solid silver;
+    margin-right: 20px;
+    padding: 15px;
+  }
+  
+ .wdpage6down button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #3498db; /* Adjust the background color as needed */
+    color: #fff; /* Adjust the text color as needed */
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+.wdpage6down  button:hover {
+    background-color: #2980b9; /* Adjust the hover background color as needed */
+  }
+  
+  .topinfo{
+    width: 100%;
+    height: 20%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Gilroy";
+    gap: 62px;
+    color: silver;
+}
+.topinfo img{
+    width: 95px;
+    height: 20px;
+}
+.card h4{
+    font-family: "Gilroy";
+    font-size: 13px;
+    color: black;
+}
+.card p{
+    color: silver;
+    font-family: "Gilroy";
+    font-size: 13px;
+    line-height: 22px;
+}
+.bottominfo{
+    width: 100%;
+    height: 10%;
+    /* background-color: gainsboro; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.bottominfo p{
+    font-size: 12px;
+}
+.buttonbox{
+    width: 100%;
+    height: 40%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: blue; */
+}
+.buttonbox button{
+    width: 150px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 17px;
+    background: linear-gradient(to right, #0d3bbc, #11235d);
+    color: #fff;
+    font-weight: 500;
+    padding: 5px;
+    margin-bottom: -2px;
+    font-family: "Gilroy";
+}
+.cards {
+    display: flex;
+    transition: transform 0.5s ease-in-out; /* Add transition for smooth sliding */
+    width: 170%; /* Set a fixed width to accommodate all cards */
+  }
+  
+  .card {
+    flex: 0 0 33.33%; /* Set a fixed width for each card (33.33% for 3 cards) */
+    box-sizing: border-box;
+  }
+  .head{
+    color: rebeccapurple;
+  }
+
+   @media (max-width:568px) {
+    .wdpage1{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* background-color: yellow; */
+    }
+.wdpage1left{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: red; */
+}
+.wdpage1left h1{
+  font-size: 45px;
+}
+
+
+
+.wdpage1right{
+    display: none;
+}
+.wdpage2{
+    width: 100%;
+    height: fit-content;
+    /* background-color: aqua; */
+}
+.wdpage2left{
+    display: none;
+}
+.wdpage2right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.wdpage3{
+    /* background-color: aqua; */
+    display: none;
+
+}
+.wdpage4{
+    width: 100%;
+    height: fit-content;
+}
+.wdpage4center{
+    width: 100%;
+
+    text-align: center;
+    padding-top: 80px;
+    height: fit-content;
+    border-radius: 60px;
+    background: linear-gradient(to right, #0d3bbc, #11235d);
+}
+.wdpage5top{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+}
+.wdpage5top h1{
+    font-size: 23px;
+}
+.wdpage6top{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+
+}
+.wdr{
+    font-size: 23px;
+    margin-left: 0vw;
+}
+.wdpage6{
+    overflow: hidden;
+}
+.card {
+    flex: 0 0 23.33%; /* Set a fixed width for each card (33.33% for 3 cards) */
+    box-sizing: border-box;
+  }
+  .topinfo img{
+    width: 50px;
+    height: 10px;
+  }
+  .bottominfo{
+    display: none;
+  }
+
+   }

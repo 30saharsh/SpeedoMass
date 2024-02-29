@@ -1,0 +1,561 @@
+.jpage1{
+    width: 100%;
+    height: 60vh;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Gilroy";
+}
+.jpage1 h1{
+    font-family: "Gilroy";
+    font-size: 62px;
+    font-weight: 700;
+    color: #071c54;
+}
+.jpage1 p{
+color: silver;
+margin-top: -40px;
+}
+
+
+.main7{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    /* background-color: pink; */
+    justify-content: center;
+  }
+  .main7left{
+  width: 45%;
+  height: 75%;
+  padding: 12px;
+  margin-left: 7.7vw;
+  /* background-color: green; */
+  }
+  
+  .main7right{
+    width: 45%;
+  height: 90%;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  .main7left h2{
+    font-family: "Gilroy";
+    color: orange;
+    font-weight: 500;
+    font-size: 35px;
+  }
+  .main7left h1{
+    font-family: "Gilroy";
+    color:#071c54;
+    font-size: 35px;
+  }
+  .main7left p{
+  color: rgb(166, 166, 166);
+  font-family: "Gilroy";
+  line-height: 24px;
+  }
+  .sap1{
+    width: 150px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 17px;
+    background: linear-gradient(to right, #0d3bbc, #11235d);
+    color: #fff;
+    font-weight: 500;
+    padding: 5px;
+    margin-top: 35px;
+    margin-bottom: -2px;
+    font-family: "Gilroy";
+  }
+  .main7rightup{
+    width: 110%;
+    height: 50%;
+    margin-right: 105px;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    justify-content: center;
+    margin-bottom: -70px;
+  }
+  .main7rightdown{
+    width: 100%;
+    height: 50%;
+    /* background-color: rgb(12, 75, 169); */
+    margin-right: 105px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    justify-content: center;
+  }
+  .mrubox1{
+    width: 13vw;
+    height: 22vh;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 13px;
+    justify-content: center;
+    /* background: linear-gradient(to right, #0d3bbc, #11235d); */
+    /* border: 2px solid silver; */
+    background-color: #FAFAFA;
+    padding: 25px;
+    font-family: "Gilroy";
+  }
+  
+  .mrubox1:hover{
+    width: 13vw;
+    height: 22vh;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 13px;
+    justify-content: center;
+    background: linear-gradient(to right, #0d3bbc, #11235d);
+    border: 2px solid silver;
+    padding: 25px;
+    color: #fff;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 1s all;
+    font-family: "Gilroy";
+    cursor: pointer;
+    
+  }
+  .mrubox1 img{
+    width: 30px;
+    height: 40px;
+    margin-bottom: -8px;
+    filter: brightness(10%) hue-rotate(53deg) saturate(100%) brightness(100%) contrast(110%);
+  }
+  
+  
+  .mrubox1 p{
+    font-family: "Gilroy";
+    color: silver;
+    font-size: 10px;
+  }
+  .mrubox1 p:hover{
+    font-family: "Gilroy";
+    color: #fff;
+    font-size: 10px;
+  }
+  
+  .mrubox2{
+    width: 13vw;
+    height: 22vh;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 13px;
+    justify-content: center;
+    /* background: linear-gradient(to right, #0d3bbc, #11235d); */
+    background-color: #FAFAFA;
+    padding: 25px;
+    font-family: "Gilroy";
+    color: #071c54;
+  }
+  .mrubox2:hover{
+    width: 13vw;
+    height: 22vh;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 13px;
+    justify-content: center;
+    background: linear-gradient(to right, #0d3bbc, #11235d);
+    border: 2px solid silver;
+    padding: 25px;
+    color: #fff;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 1s all;
+    font-family: "Gilroy";
+    cursor: pointer;
+  }
+  .mrubox2 img{
+    width: 30px;
+    height: 40px;
+    margin-bottom: -8px;
+  }
+  
+  .mrubox2 p{
+    font-family: "Gilroy";
+    color: silver;
+    font-size: 10px;
+  }
+  .mrubox2 p:hover{
+    font-family: "Gilroy";
+    color: #fff;
+    font-size: 10px;
+  }
+  .mrubox3{
+    width: 13vw;
+    height: 22vh;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 13px;
+    justify-content: center;
+    /* background: linear-gradient(to right, #0d3bbc, #11235d); */
+    background-color: #FAFAFA;
+    padding: 25px;
+    font-family: "Gilroy";
+    color: #071c54;
+  }
+  .mrubox3:hover{
+    width: 13vw;
+    height: 22vh;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 13px;
+    justify-content: center;
+    background: linear-gradient(to right, #0d3bbc, #11235d);
+    border: 2px solid silver;
+    padding: 25px;
+    color: #fff;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 1s all;
+    font-family: "Gilroy";
+    cursor: pointer;
+  }
+  .mrubox3 img{
+    width: 30px;
+    height: 40px;
+    margin-bottom: -8px;
+  }
+  
+  .mrubox3 p{
+    font-family: "Gilroy";
+    color: silver;
+    font-size: 10px;
+  }
+  .mrubox3 p:hover{
+    font-family: "Gilroy";
+    color: #fff;
+    font-size: 10px;
+  }
+  .mrubox4{
+    width: 13vw;
+    height: 22vh;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 13px;
+    justify-content: center;
+    /* background: linear-gradient(to right, #0d3bbc, #11235d); */
+    background-color: #FAFAFA;
+    padding: 25px;
+    font-family: "Gilroy";
+    color: #071c54;
+  }
+  .mrubox4:hover{
+    width: 13vw;
+    height: 22vh;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 13px;
+    justify-content: center;
+    background: linear-gradient(to right, #0d3bbc, #11235d);
+    border: 2px solid silver;
+    padding: 25px;
+    color: #fff;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 1s all;
+    font-family: "Gilroy";
+    cursor: pointer;
+  }
+  .mrubox4 img{
+    width: 30px;
+    height: 40px;
+    margin-bottom: -8px;
+  }
+  
+  .mrubox4 p{
+    font-family: "Gilroy";
+    color: silver;
+    font-size: 10px;
+  }
+  .mrubox4 p:hover{
+    font-family: "Gilroy";
+    color: #fff;
+    font-size: 10px;
+  }
+  .jpage3{
+    width: 100%;
+    height: 150vh;
+    /* background-color: rebeccapurple; */
+  }
+  .jpage3top{
+    width: 100%;
+    height: 30%;
+    /* background-color: yellowgreen; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Gilroy";  
+    text-align: center;
+  }
+  .jpage3top h2{
+    color: orange;
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: -25px;
+  }
+  .jpage3top h1{
+    color: #071c54;
+    font-size: 40px;
+    margin-bottom: -2px;
+  }
+  .jpage3top p{
+    color: silver;
+    line-height: 22px;
+  }
+  .jpage3bottom{
+    width: 100%;
+    height: 50%;
+    /* background-color: crimson; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .jpage3bottomleft{
+    width: 30%;
+    height: 100%;
+    /* background-color: greenyellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #071c54;
+  }
+  .jpage3bottomright{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(54, 13, 143); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .jcard{
+    width: 60%;
+    height: 50%;
+    border: 2px solid silver;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 22px;
+    padding-left: 22px;
+  }
+  .jcard button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration: none;
+    color: #071c54;
+    font-family: "Gilroy";
+  }
+
+  .jcard button:hover{
+    font-weight: 900;
+  }
+  .widecard{
+        width: 90%;
+        height: 15%;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-family: "Gilroy";
+        border-radius:24px;
+        /* background-color: red; */
+  }
+
+  .widecard h5{
+   color: silver;
+   font-weight: 500;
+   margin-bottom: -15px; 
+  }
+  .widecard h4{
+   color: #071c54;
+   }
+
+   @media(max-width:568px){
+    .jpage1{
+      /* background-color: red; */
+      width: 100%;
+      height: fit-content;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+    }
+    .main7{
+      /* background-color: red; */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      height: fit-content;
+      width: 100%;
+      text-align: center;
+    }
+    .main7left{
+      width: 79%;
+      height: fit-content;
+      margin-left: 0vw;
+    }
+    .main7right{
+      width: 100%;
+      height: fit-content;
+      /* background-color: aqua; */
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      /* flex-direction: column; */
+      gap: 100px;
+    }
+    .main7rightup{
+      width: 100%;
+      height: fit-content;
+      /* background-color: greenyellow; */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .main7rightdown{
+      width: 100%;
+      height: fit-content;
+      /* background-color: pink; */
+      /* margin-top: 50px; */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .mrubox1{
+      width: 70%;
+      /* display: none; */
+    }
+    .mrubox1:hover{
+      width: 70%;
+      height: 22vh;
+      border-radius: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 13px;
+      justify-content: center;
+      background: linear-gradient(to right, #0d3bbc, #11235d);
+      border: 2px solid silver;
+      padding: 25px;
+      color: #fff;
+      transition: cubic-bezier(0.19, 1, 0.22, 1) 1s all;
+      font-family: "Gilroy";
+      cursor: pointer;
+    }
+    .mrubox2{
+      width: 70%;
+      /* display: none; */
+    }
+    .mrubox2:hover{
+      width: 70%;
+      height: 22vh;
+      border-radius: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 13px;
+      justify-content: center;
+      background: linear-gradient(to right, #0d3bbc, #11235d);
+      border: 2px solid silver;
+      padding: 25px;
+      color: #fff;
+      transition: cubic-bezier(0.19, 1, 0.22, 1) 1s all;
+      font-family: "Gilroy";
+      cursor: pointer;
+    }
+    .mrubox3{
+      width:70%;
+      /* display: none; */
+    }
+    .mrubox3:hover{
+      width: 70%;
+      height: 22vh;
+      border-radius: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 13px;
+      justify-content: center;
+      background: linear-gradient(to right, #0d3bbc, #11235d);
+      border: 2px solid silver;
+      padding: 25px;
+      color: #fff;
+      transition: cubic-bezier(0.19, 1, 0.22, 1) 1s all;
+      font-family: "Gilroy";
+      cursor: pointer;
+    }
+    .mrubox4{
+      width: 70%;
+      /* display: none; */
+    }
+    .mrubox4:hover{
+      width: 70%;
+      height: 22vh;
+      border-radius: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 13px;
+      justify-content: center;
+      background: linear-gradient(to right, #0d3bbc, #11235d);
+      border: 2px solid silver;
+      padding: 25px;
+      color: #fff;
+      transition: cubic-bezier(0.19, 1, 0.22, 1) 1s all;
+      font-family: "Gilroy";
+      cursor: pointer;
+    }
+   
+    .jpage3bottom{
+      width: 100%;
+      height: fit-content;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .jpage3bottomleft{
+      width: 100%;
+      margin-bottom: 30px;
+    }
+    .jpage3bottomright{
+      width: 100%;
+    }
+    .widecard{
+      width: 100%;
+      font-size: 12px;
+      height: 30%;
+    }
+   }

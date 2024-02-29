@@ -1,0 +1,169 @@
+.copage1{
+    width: 100%;
+    height: 60vh;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Gilroy";
+}
+.copage1 h1{
+    font-family: "Gilroy";
+    font-size: 62px;
+    font-weight: 700;
+    color: #071c54;
+}
+.copage1 p{
+color: silver;
+margin-top: -40px;
+}
+.copage2{
+    width: 100%;
+    height: fit-contentc;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2px;
+}
+.first{
+    width: 80%;
+    height: 45%;
+    /* background-color: aqua; */
+    font-family: "Gilroy";
+    color: silver;
+}
+.first p{
+    font-size: 13px;
+    line-height: 19px;
+}
+.second{
+    width: 80%;
+    height: 25%;
+    /* background-color: aqua; */
+    font-family: "Gilroy";
+    color: silver;
+}
+.second p{
+    font-size: 13px;
+    line-height: 19px;
+}
+.third{
+    width: 80%;
+    height: 25%;
+    /* background-color: aqua; */
+    font-family: "Gilroy";
+    color: silver;
+}
+.third p{
+    font-size: 13px;
+    line-height: 19px;
+}
+.fourth{
+    width: 80%;
+    height: 25%;
+    /* background-color: aqua; */
+    font-family: "Gilroy";
+    color: silver;
+}
+.fourth p{
+    font-size: 13px;
+    line-height: 19px;
+}
+.fifth{
+    width: 80%;
+    height: 25%;
+    /* background-color: aqua; */
+    font-family: "Gilroy";
+    color: silver;
+}
+.fifth p{
+    font-size: 13px;
+    line-height: 19px;
+}
+.sixth{
+    width: 80%;
+    height: 25%;
+    /* background-color: aqua; */
+    font-family: "Gilroy";
+    color: silver;
+}
+.sixth p{
+    font-size: 13px;
+    line-height: 19px;
+}
+.seventh{
+    width: 80%;
+    height: 25%;
+    /* background-color: aqua; */
+    font-family: "Gilroy";
+    color: silver;
+}
+.seventh p{
+    font-size: 13px;
+    line-height: 19px;
+}
+.eighth{
+    width: 80%;
+    height: 25%;
+    /* background-color: aqua; */
+    font-family: "Gilroy";
+    color: silver;
+}
+.eighth p{
+    font-size: 13px;
+    line-height: 19px;
+}
+.ninth{
+    width: 80%;
+    height: 25%;
+    /* background-color: aqua; */
+    font-family: "Gilroy";
+    color: silver;
+}
+.ninth p{
+    font-size: 13px;
+    line-height: 19px;
+}
+.tenth{
+    width: 80%;
+    height: 25%;
+    /* background-color: aqua; */
+    font-family: "Gilroy";
+    color: silver;
+}
+.tenth p{
+    font-size: 13px;
+    line-height: 19px;
+}
+.eleventh{
+    width: 80%;
+    height: 25%;
+    /* background-color: aqua; */
+    font-family: "Gilroy";
+    color: silver;
+}
+.eleventh p{
+    font-size: 13px;
+    line-height: 19px;
+}
+@media(max-width:568px){
+
+
+.copage1{
+    width: 100%;
+    /* background-color: red; */
+    text-align: center;
+    height: fit-content;
+
+}
+.copage1 h1{
+    font-size: 35px;
+}
+
+
+
+
+}

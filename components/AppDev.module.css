@@ -1,0 +1,501 @@
+.adpage1{
+    width: 100%;
+    height: 100vh;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page1left{
+    width: 42.5%;
+    height: 100%;
+    /* background-color: aqua; */
+    font-family: "Gilroy";
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.page1right{
+    width: 42.5%;
+    height: 100%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page1left h3{
+    color: orange;
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: -32px;
+}
+.page1left h1{
+    color: #071c54;
+    font-size: 50px;
+    margin-bottom: -2px;
+}
+.page1left p{
+    color: silver;
+    line-height: 22px;
+}
+.dmappdevpage{
+    width: 150px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 17px;
+    background: linear-gradient(to right, #0d3bbc, #11235d);
+    color: #fff;
+    font-weight: 500;
+    padding: 5px;
+    margin-top: 15px;
+    font-family: "Gilroy";
+}
+.iphone1{
+    margin-left: -150px;
+    z-index: 999;
+    width: 250px;
+    height: 470px;
+}
+.iphone2{
+    position: absolute;
+    right: 12%;
+    top: 23%;
+    width: 250px;
+    height: 350px;
+}
+.adpage2{
+    width: 100%;
+    height: 90vh;
+    /* background-color: red; */
+    font-family: "Gilroy";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.page2top{
+    width: 100%;
+    height: 20%;
+    /* background-color:aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -30px;
+    color: #071c54;
+}
+.page2bottom{
+    width: 100%;
+    height: 80%;
+    /* background-color:lightcyan; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+.appcard{
+    width: 290px;
+    border-radius: 15px;
+    height: 250px;
+    border: 1.4px solid silver;
+    font-family: "Gilroy";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px;
+    flex-direction: column;
+}
+.appcard img{
+    width: 180px;
+    height: 130px;
+}
+.appcard p{
+    text-align: center;
+}
+.appcard h3{
+    color: #071c54;
+    font-weight: 500;
+}
+.appcard p{
+line-height: 22px;
+}
+.adpage3{
+    width: 100%;
+    height: 90vh;
+    /* background-color: orangered; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.adthreeleft{
+    width: 55%;
+    height: 100%;
+    /* background-color: ghostwhite; */
+    display: flex;
+    align-items: flex-start;
+    padding: 22px;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Gilroy";
+}
+.adthreeright{
+    width: 35%;
+    height: 100%;
+    /* background-color: purple; */
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.appdevem{
+    width: 150px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 17px;
+    background: linear-gradient(to right, #0d3bbc, #11235d);
+    color: #fff;
+    font-weight: 500;
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: -2px;
+    font-family: "Gilroy";
+}
+.adthreeright img{
+    margin-right: 40px;
+    width: 340px;
+    height: 340px;
+}
+.adpage4{
+    width: 100%;
+    height: 65vh;
+    /* background-color: aqua; */
+    font-family: "Gilroy";
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.adpage4down{
+    width: 100%;
+    height: 90%;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 23px;
+    margin-top: -50px;
+}
+.adpage4downcard{
+    width: 220px;
+    height: 120px;
+    border-radius:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.adpage4downcard:hover{
+    cursor: pointer;
+
+    border: 1px solid silver;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 1s all;
+}
+.cardinfoadpf{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.adpage4downcard img{
+    width: 55px;
+    height: 58px;
+}
+.adpage5{
+    width: 100%;
+    height: 100vh;
+    /* background-color: purple; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.extremeleft{
+    width: 25%;
+    height: 90%;
+    /* background: linear-gradient(to right, #0d3bbc, #11235d); */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.extremeleft img{
+    width: 90%;
+    height: 90%;
+}
+.extremecenter{
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    /* background-color: green; */
+}
+.extremeright{
+    width: 25%;
+    height: 90%;
+    /* background: linear-gradient(to right, #0d3bbc, #11235d); */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+.extremeright img{
+    width: 90%;
+    height: 90%;
+}
+.extremecenter img{
+    width: 220px;
+    height: 440px;
+    margin: 23px;
+}
+.adpage6{
+    width: 100%;
+    height: 100vh;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.adpage6top{
+    width: 100%;
+    height: 10%;
+    /* background-color: red; */
+}
+.adpage6down{
+    width: 100%;
+    height: 80%;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slidecard{
+    width: 90%;
+    /* background-color: rgb(23, 44, 150); */
+}
+.slidercontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    /* background-color: aqua; */
+
+  }
+  
+  .slider {
+    overflow: hidden;
+    width: 600px; /* Adjust the width as needed */
+  }
+  
+  .cards {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card {
+    box-sizing: border-box;
+    width: 50vw;
+    height: 40vh;
+border-radius: 30px;
+    color: #fff; /* Adjust the text color as needed */
+    border: 1px solid silver;
+    margin-right: 20px;
+    padding: 15px;
+  }
+  
+ .adpage6down button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #3498db; /* Adjust the background color as needed */
+    color: #fff; /* Adjust the text color as needed */
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+.adpage6down  button:hover {
+    background-color: #2980b9; /* Adjust the hover background color as needed */
+  }
+  
+  .topinfo{
+    width: 100%;
+    height: 20%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Gilroy";
+    gap: 62px;
+    color: silver;
+}
+.topinfo img{
+    width: 95px;
+    height: 20px;
+}
+.card h4{
+    font-family: "Gilroy";
+    font-size: 13px;
+    color: black;
+}
+.card p{
+    color: silver;
+    font-family: "Gilroy";
+    font-size: 13px;
+    line-height: 22px;
+}
+.bottominfo{
+    width: 100%;
+    height: 10%;
+    /* background-color: gainsboro; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.bottominfo p{
+    font-size: 12px;
+}
+.buttonbox{
+    width: 100%;
+    height: 40%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: blue; */
+}
+.buttonbox button{
+    width: 150px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 17px;
+    background: linear-gradient(to right, #0d3bbc, #11235d);
+    color: #fff;
+    font-weight: 500;
+    padding: 5px;
+    margin-bottom: -2px;
+    font-family: "Gilroy";
+}
+.cards {
+    display: flex;
+    transition: transform 0.5s ease-in-out; /* Add transition for smooth sliding */
+    width: 170%; /* Set a fixed width to accommodate all cards */
+  }
+  
+  .card {
+    flex: 0 0 33.33%; /* Set a fixed width for each card (33.33% for 3 cards) */
+    box-sizing: border-box;
+    /* background-color: pink; */
+  }
+  .head{
+    color: rebeccapurple;
+  }
+
+  @media (max-width:568px) {
+
+
+.page1left{
+    text-align: center;
+}
+    .page1right{
+        display: none;
+    }
+
+    .adpage2{
+        width: 100%;
+    
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+.page2bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    margin-top: 30px;
+    
+
+}
+
+.page2top{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    text-align: center;
+    font-size: 12px;
+}
+.appcard{
+    width: 65%;
+}
+.adthreeright{
+    display: none;
+}
+.adpage3{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+.appdevem{
+    margin-left:30px;
+}
+.adpage4{
+    width: 100%;
+    height: fit-content;
+    margin-top: 50px;
+    text-align: center;
+}
+.adpage4down{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.success{
+display: none;
+}
+.experience{
+  display: none;
+}
+.adpage5{
+    width: 100%;
+    overflow: hidden;
+}
+.adpage6{
+width: 100%;
+overflow: hidden;
+}
+
+.card {
+    flex: 0 0 23.33%; /* Set a fixed width for each card (33.33% for 3 cards) */
+    box-sizing: border-box;
+  }
+  .topinfo img{
+    width: 50px;
+    height: 10px;
+  }
+  .bottominfo{
+    display: none;
+  }
+  }

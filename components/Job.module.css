@@ -1,0 +1,288 @@
+.jobpage1{
+    width: 100%;
+    height: 60vh;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Gilroy";
+}
+.jobpage1 h1{
+    font-family: "Gilroy";
+    font-size: 62px;
+    font-weight: 700;
+    color: #071c54;
+}
+.jobpage1 p{
+color: silver;
+margin-top: -40px;
+}
+.jobpage2{
+    width: 100%;
+    height: 170vh;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.jobpage2left{
+    height: 30%;
+    width: 35%;
+    /* background-color: aqua; */
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.jobpage2right{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.jobpage2left img{
+    width: 70%;
+    height: 100%;
+}
+
+
+
+.cpage2centerright{
+    width: 80%;
+    padding: 56px;
+    height: 80%;
+    background-color: #FAFAFC;
+border-radius: 30px;
+    font-family: "Gilroy";
+    color: #0000;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 32px;
+}
+.phonenumber{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.locate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icons{
+    width: 20vw;
+    margin-top: 155px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.icons img{
+background-color: #364774;
+border-radius: 50%;
+padding: 10px;
+}
+.oneinp{
+    width: 100%;
+    height: 12%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+    gap: 22px;
+}
+
+.oneinp input{
+    border: none;
+    color: black;
+    outline: none;
+    width: 50%;
+    height: 100%;
+    /* background-color: salmon; */
+    padding: 2px;
+    border-bottom: 2px solid silver;
+    background-color: transparent;
+}
+.twoinp{
+    width: 100%;
+    height: 12%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 22px;
+}
+
+.twoinp input{
+    border: none;
+    color: black;
+    outline: none;
+    width: 50%;
+    height: 100%;
+    /* background-color: salmon; */
+    padding: 2px;
+    border-bottom: 2px solid silver;
+    background-color: transparent;
+}
+.threeinp{
+    width: 100%;
+    height: 12%;
+    /* background-color: aqua;    */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid silver;
+}
+.threeinp select{
+    border: none;
+
+}
+.fourinp{
+    width: 100%;
+    height: 12%;
+    /* background-color: aqua;    */
+}
+.fourinpinside{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 3px;
+    /* background-color: red; */
+    
+}
+.fourinpinside h4{
+    font-size: 9.7px;
+}
+.fiveinp input{
+    border: none;
+    color: black;
+    outline: none;
+    width: 100%;
+    height: 90%;
+    /* background-color: salmon; */
+    padding: 2px;
+    border-bottom: 2px solid silver;
+    background-color: transparent;
+}
+.fiveinp{
+    width: 100%;
+    height: 12%;
+    /* background-color: aqua;    */
+
+}
+.formsm{
+    width: 150px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 17px;
+    background: linear-gradient(to right, #0d3bbc, #11235d);
+    color: #fff;
+    font-weight: 500;
+    padding: 5px;
+    font-family: "Gilroy";
+}
+.cpage2centerright input[type="text"]::placeholder {
+    color: black; /* Set your desired color here */
+    font-weight: 700;
+    font-family: "Gilroy";
+  }
+  .cpage2centerright input[type="email"]::placeholder {
+    color: black; /* Set your desired color here */
+    font-weight: 700;
+    font-family: "Gilroy";
+  }
+  .cpage2centerright input[type="number"]::placeholder {
+    color: black; /* Set your desired color here */
+    font-weight: 700;
+    font-family: "Gilroy";
+  }
+  .sixinp{
+    width: 100%;
+    height: 30%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 80px;
+  }
+  .sixinp h5{
+    /* background-color: red; */
+  }
+  .drop{
+    width: 100%;
+    height: 100%;
+    border: 2px dotted silver;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: yellow; */
+  }
+  .drop input{
+/* background-color: pink; */
+width: 8vw;
+  }
+  .drop p{
+    color: silver;
+  }
+
+  @media(max-width:568px){
+
+.jobpage1{
+    width: 100%;
+    /* background-color: red; */
+    text-align: center;
+    height: fit-content;
+
+}
+.jobpage1 h1{
+    font-family: "Gilroy";
+    font-size: 32px;
+    font-weight: 700;
+    color: #071c54;
+}
+.jobpage1 p{
+    color: silver;
+    margin-top: -10px;
+    font-size:10px;
+    }
+    .jobpage2{
+        /* background-color: red; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: fit-content;
+    }
+.jobpage2left{
+    display: none;
+}
+.jobpage2right{
+    width: 95%;
+    /* background-color: greenyellow; */
+}
+.cpage2centerright{
+    width: 80%;
+    /* background-color: cadetblue; */
+}
+.drop input{
+    width: 100px;
+    /* background-color: grey; */
+}
+.sixinp{
+    /* background-color: #0d3bbc; */
+    margin-top: -10px;
+}
+  }

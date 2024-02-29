@@ -1,0 +1,354 @@
+.aboutcenter{
+    width: 100%;
+    height: 42vh;
+    /* background-color: teal; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Gilroy";
+}
+.aboutheading{
+    font-size: 62px;
+    font-weight: 700;
+    color: #071C54;
+}
+.aboutbelow{
+    width: 100%;
+    height: 40vh;
+    /* background-color: teal; */
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-family: "Gilroy";
+    gap: 36px;
+    /* background-color: red; */
+}
+.aboutbelowleft{
+    width: 45%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+.aboutbelowleft p{
+    font-size: 12px;
+    color: silver;
+    line-height: 20px;
+    margin-bottom: 12px;
+}
+.aboutbelowrihgt{
+    width: 30%;
+    height: 80%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aboutbelowrihgt .oneimage{
+    width: 100%;
+    height:131%;
+}
+.aboutbelowleft h1{
+    color: #071C54;
+    margin-bottom: 14px;
+}
+.twoimage{
+    width: 200px;
+    position: absolute;
+    margin-top: 110px;
+    margin-left: -230px;
+    height:135px;
+}
+.aboutpage2{
+    width: 100%;
+    height: 100vh;
+    /* background-color: purple; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutpage2center{
+    width: 72%;
+    height: 60%;
+    border-radius: 60px;
+    background: linear-gradient(to right, #0d3bbc, #11235d);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Gilroy';
+    padding: 0px 15px;
+}
+
+.aboutpage2center p{
+    line-height: 25px;
+    font-size: 15px;
+}
+.aboutpage3{
+    margin-top:-20vh;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aboutpage3center{
+    width: 72%;
+    height: 60%;
+    /* background-color: sienna; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.aboutpage3centerleft{
+    width: 53%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* background-color: pink; */
+}
+.aboutpage3centerright{
+    width: 45%;
+    height: 100%;
+    /* background-color: rgb(88, 81, 209); */
+    /* padding: 15px;    */
+    font-family: "Gilroy";
+}
+.aboutpage3centerleft img{
+    width: 100%;
+    height: 90%;
+    margin-top: 25px;
+}
+.ouranalysis{
+    width: 100%;
+    height: 30%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.aboutpage3centerright p{
+    color: silver;
+    font-size: 14px;
+}
+.ouranalysisleft{
+    width: 45%;
+    height: 100%;
+    background: linear-gradient(to right, #0d3bbc, #11235d);
+    /* background-color: aqua; */
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.ouranalysisright{
+    width: 45%;
+    height: 100%;
+background-color: #F9F9F9;
+border-radius: 15px;
+    color: #071C54;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.aboutpage4{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 42px;
+}
+.aboutpage4card{
+width: 20%;
+height: 60%;
+background-color: #F9F9F9;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 15px;
+}
+.aboutpage4cardinside{
+    width: 90%;
+    height: 90%;
+    background-color: #EDEDED;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+justify-content: center;
+    border-radius: 15px;
+    font-family: "Gilroy";
+}
+.aboutpage4cardinside img{
+    width: 230px;
+    height: 320px;
+}
+.cardinfo{
+    width: 100%;
+    height: 30%;
+    background: linear-gradient(to right, #0d3bbc, #11235d);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius:15px;
+    color: #fff;
+
+}
+.aboutpage5{
+    width: 100%;
+    height: 100vh;
+    /* background-color: purple; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aboutpage5center{
+    width: 70%;
+    height: 50%;
+    border-radius: 45px;
+    background: linear-gradient(to right, #0d3bbc, #11235d);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #FFF;
+    font-family: "Gilroy";
+}
+.aboutpage5inputs{
+    width: 85%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    /* background-color: red; */
+}
+.aboutpage5inputs input {
+border: none;
+padding: 19px;
+border-radius: 32px;
+color: rgb(255, 255, 255);
+outline: none;
+background-color:transparent; /* Set a semi-transparent white background */
+backdrop-filter: blur(5px);
+border: 2px solid silver;
+}  
+
+.aboutpage5inputs input[type="text"]::placeholder {
+    color: #FFF; /* Set your desired color here */
+  }
+  .aboutpage5inputs input[type="email"]::placeholder {
+    color: #FFF; /* Set your desired color here */
+  }
+  
+.aboutemailinput{
+    width: 250px;
+    color: #fff;
+    outline: none;
+}
+.aboutsubs{
+    width: 160px;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 32px;
+background-color: #fff;
+    color: #11235d;
+    font-weight: 900;
+    padding: 5px;
+    font-family: "Gilroy";
+}
+@media (max-width:568px) {
+
+.aboutbelowrihgt{
+    display: none;
+}
+.aboutbelow{
+width: 100%;
+height: fit-content;
+text-align: center;
+}
+
+.aboutpage2center{
+    width: 100%;
+    height: fit-content;
+    padding: 12px;
+}
+.aboutpage3center{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: fit-content;
+    text-align: center;
+}
+.aboutpage3{
+    margin-top: 120px;
+}
+.ouranalysis{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 22px;
+}
+.ouranalysisleft{
+    width: 100%;
+}
+.ouranalysisright{
+    width: 100%;
+}
+.aboutpage4{
+    width: 100%;
+    height: fit-content;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.aboutpage4card{
+    width: 100%;
+}
+.ourtm{
+    margin-top: 300px;
+}
+.aboutpage5inputs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+}
+.aboutpage5inputs input{
+    width: 100%;
+}
+.aboutpage5center{
+    width: 100%;
+    height: 70%;
+    gap: 35px;
+}
+.aboutpage5center p{
+display: none;
+}
+.aboutsubs{
+    width: 100%;
+    height: 30%;
+}
+}

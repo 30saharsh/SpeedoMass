@@ -1,0 +1,283 @@
+.wdpage1{
+    width: 100%;
+    height: 60vh;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Gilroy";
+}
+.wdpage1 h1{
+    font-family: "Gilroy";
+    font-size: 62px;
+    font-weight: 700;
+    color: #071c54;
+}
+.wdpage2{
+    width: 100%;
+    height: 80vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wdpage2center{
+    width: 80%;
+    height: 80%;
+}
+.wdpage2center img{
+    width: 100%;
+    height: 100%;
+}
+.wdpage3{
+    width: 100%;
+    height: 300vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    /* background-color: yellowgreen; */
+}
+.wdpage3left{
+    width: 45%;
+    height: 100%;
+    /* background-color: gold; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    font-family: "Gilroy";
+padding-left: 32px;
+}
+.beecha {
+    color: black;
+}
+.wdpage3right{
+    width: 30%;
+    height: 50%;
+    /* background-color: green; */
+    background-color: #FAFAFC;
+    border-radius: 30px;
+    margin-top: 80px;
+    font-family: "Gilroy";
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-left: 22px;
+}
+.wdpage3left h1{
+    color: #071c54;
+    margin-left: 30px;
+}
+.wdpage3left h3{
+    margin-top: -130px;
+    color: #071c54;
+}
+.wdpage3left li{
+    color: silver;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+.wdpage3left p{
+    color: silver;
+    line-height: 25px;
+    font-size: 12px;
+    width: 35vw;
+}
+.data{
+    width: 100%;
+    /* background-color: aqua; */
+    height: fit-content;
+}
+.data h3{
+    margin-left: 30px;
+}
+.tap{
+    margin-top: 10px;
+    margin-bottom: -6px;
+}
+.last{
+    margin-bottom: -2px;
+}
+.line{
+    width: 80vw;
+    height: 1px;
+    background-color: silver;
+    margin-top: -70px;
+    margin-left: 30px;
+    margin-bottom: 45px;
+}
+.er{
+    margin-top: -52px;
+    margin-bottom: -6px;
+}
+.apn{
+    width: 150px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 17px;
+    background: linear-gradient(to right, #0d3bbc, #11235d);
+    color: #fff;
+    font-weight: 500;
+    padding: 5px;
+    margin-top: -105px;
+
+    font-family: "Gilroy";
+}
+.know{
+  
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 24px;
+/* background-color: aqua; */
+}
+.ohf{
+    color: silver;
+    font-weight: 500;
+    margin-bottom: -15px;
+}
+.thf{
+    color: #071c54;
+    font-family: 700;
+}
+.know img{
+    width: 25px;
+    height: 30px;
+}
+.icons{
+    width: 20vw;
+    margin-top: 155px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icons{
+    width: 60%;
+    height: fit-content;
+margin-top: -10px;
+}
+.icons img{
+    color: #fff;
+    background-color: #071c54;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+@media(max-width:568px){
+
+.wdpage1{
+    width: 100%;
+    text-align: center;
+    margin-top: -40px;
+}
+
+.wdpage1 h1{
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    height: fit-content;
+}
+.wdpage2{
+    /* background-color: yellowgreen; */
+    margin-top: -80px;
+}
+
+.wdpage2center{
+    /* background-color: red; */
+}
+.wdpage2center img{
+    width: 100%;
+    height: 40%;
+}
+.wdpage3{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    height: fit-content;
+    font-size: 6px;
+    /* display: none; */
+    margin-top: -210px;
+    padding-left: 0px;
+}
+.wdpage3left{
+width: 90%;
+height: 500vh;
+text-align: center;
+/* background-color: red; */
+display: flex;
+align-items: flex-start;
+justify-content: space-around;
+flex-direction: column;
+}
+.wdpage3left h1{
+    /* background-color: red; */
+    margin-left: 0px;
+    font-size: 30px;
+}
+.wdpage3right{
+ width: 90%;
+ height: 100vh;
+ margin-top: -200px;
+}
+.know{
+    width: 90%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.knowmore{
+    width: 80%;
+    /* background-color: red; */
+}
+.icons{
+    /* background-color: yellow; */
+}
+.wdpage3right h2{
+    font-size: 20px;
+}
+.knowmore h4{
+font-size: 15px;
+}
+.wdpage3left h3{
+ font-size: 10px;
+ margin-left: 0px;
+}
+.data{
+    margin-top: -70px;
+    height: 30%;
+    width: 100%;
+    /* background-color: aqua; */
+}
+.data h3{
+    margin-left: 0px;
+}
+.data li{
+    margin-left: -40px;
+    
+}
+.data h1{
+    /* margin-left: -60px; */
+}
+.data {
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+}
+.beecha{
+    font-size: 15px;
+}
+.beechh{
+    font-size: 15px;
+}
+}
