@@ -1,1 +1,7 @@
-color: rgb(165, 165, 165);
+    formData.append("Firstname", Firstname);
+    formData.append("Lastname" , Lastname)
+    formData.append("Email" , Email)
+    formData.append("Phone" , Phone)
+    formData.append("AppliedPosition" , Appliedposition)
+    formData.append("InterviewDate" , InterviewDate)
+    formData.append("CoverLetter" , CoverLetter)

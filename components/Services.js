@@ -5,6 +5,7 @@ import styles from "./Services.module.css";
 import Footer from "./Footer";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import Loader from "./Loader";
 
 const Services = () => {
   const router = useRouter();
@@ -14,6 +15,7 @@ const Services = () => {
   const [isOpen3, setIsOpen3] = useState(false);
   const [isOpen4, setIsOpen4] = useState(false);
   const [isOpen5, setIsOpen5] = useState(false);
+  const [loading, setLoading] = useState(false);
 
 
   const toggleDropdown = () => {
@@ -42,10 +44,12 @@ const Services = () => {
   };
   const Navigate = () =>{
     console.log("saharsh Shrivastava")
-router.push("/appdev");
+    setLoading(true);
+ router.push("/appdev");
   }
   const NavigateWeb = () =>{
     console.log("saharsh Shrivastava Web")
+    setLoading(true);
 router.push("/webdev");
   }
 
@@ -54,11 +58,11 @@ router.push("/webdev");
 
 
       <NavBar />
-
-      
+      {loading && <Loader/>}
       <div className={styles.page1}>
         <h1 className={styles.servicesheading}>Our Services</h1>
       </div>
+
       <div className={styles.page2}>
         <div className={styles.page2up}>
           <div className={styles.page2card}>

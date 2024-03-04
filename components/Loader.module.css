@@ -1,0 +1,13 @@
+.loader{
+    width: 100%;
+    height: 100vh;
+    /* background-color: peru; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loader img{
+    width: 70px;
+    color: blue;
+    height: 70px;
+}
