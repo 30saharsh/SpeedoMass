@@ -10,6 +10,8 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
+
+  const server = process.env.NODE_BACKEND_URL;
   const [Firstname, setFirstname] = useState("");
   const [Lastname, setLastname] = useState("");
   const [Email, setEmail] = useState("");
@@ -50,7 +52,7 @@ const Contact = () => {
     console.log("This is Message",Message)
 
     try {
-      const response = await axios.post("http://localhost:8080/contactdata", {
+      const response = await axios.post(`${server}/contactdata`, {
         fullname: Firstname,
         lastname: Lastname,
         email: Email,

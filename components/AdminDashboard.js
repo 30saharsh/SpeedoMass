@@ -9,24 +9,26 @@ const AdminDashboard = () => {
   const [Contcatdata, setContcatdata] = useState([]);
   const [JobApplications, setJobApplications] = useState([]);
 
+  const server = process.env.NODE_BACKEND_URL;
+
 const HomePageDataFetch = async () =>{
-const response = await axios.get("http://localhost:8080/viewhomedata")
+const response = await axios.get(`${server}/viewhomedata`)
 setData(response.data.ITServiceData || []);
 console.log("Home Page Data",response.data.ITServiceData)
 }
 const ContactUsDataFetch = async () =>{
-  const response = await axios.get("http://localhost:8080/viewcontactdata")
+  const response = await axios.get(`${server}/viewcontactdata`)
 setContcatdata(response.data.ContactUsData || []);
 console.log("Contact Page Data",response.data.ContactUsData)
 }
 const JobApplicationsFetch = async () =>{
-  const response = await axios.get("http://localhost:8080/viewjobdata")
+  const response = await axios.get(`${server}/viewjobdata`)
 setJobApplications(response.data.JobApplications || []);
 console.log("Contact Page Data",response.data.JobApplications)
 }
 const ShowPdf = (pdf) =>{
   console.log(pdf)
-window.open(`http://localhost:8080/files/${pdf}` , "_blank" , "noreferrer")
+window.open(`${server}/files/${pdf}` , "_blank" , "noreferrer")
 }
   return (
     <div>

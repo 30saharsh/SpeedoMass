@@ -9,6 +9,8 @@ import 'react-toastify/dist/ReactToastify.css';
 
 
 const Job = () => {
+
+  const server = process.env.NODE_BACKEND_URL;
   const [file, setFile] = useState("");
   const [fileName, setFileName] = useState("Filename Here...");
   const [Firstname, setFirstname] = useState("");
@@ -62,7 +64,7 @@ const Job = () => {
     formData.append("coverletter" , CoverLetter)
     try {
 
-      const response = await axios.post("http://localhost:8080/jobuserdata", formData);
+      const response = await axios.post(`${server}/jobuserdata`, formData);
       console.log(response)
       const json = response.data;
       if (json.success) {

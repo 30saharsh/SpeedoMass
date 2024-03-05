@@ -9,6 +9,8 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Loader from "./Loader";
 const Home = () => {
+
+  const server = process.env.NODE_BACKEND_URL;
   const clientReviews = [
     {
       text: "Got my android and iOS application designed by the Speedomass, it was delivered earlier than I expected. I’ll definitely work with them again in the future for my app management and updates",
@@ -95,7 +97,7 @@ const Home = () => {
         message: message,
       };
       const response = await axios.post(
-        "http://localhost:8080/homedata",
+        `${server}/homedata`,
         formData
       );
 
