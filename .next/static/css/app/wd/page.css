@@ -461,12 +461,12 @@ padding-left: 32px;
     color: #071c54;
 }
 .Wordpress_wdpage3left__PMVuk li{
-    color: silver;
+    color: rgb(119, 119, 119);
     margin-bottom: 5px;
     font-size: 12px;
 }
 .Wordpress_wdpage3left__PMVuk p{
-    color: silver;
+    color: rgb(119, 119, 119);
     line-height: 25px;
     font-size: 12px;
     width: 35vw;
@@ -479,6 +479,9 @@ padding-left: 32px;
 }
 .Wordpress_data__mRrGC h3{
     margin-left: 30px;
+}
+.Wordpress_icons__o4dyf a:hover{
+    cursor: pointer;
 }
 .Wordpress_tap__tHqXj{
     margin-top: 10px;

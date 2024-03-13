@@ -210,10 +210,10 @@ router.push("/job")
 
       <div className={styles.icons}>
 
-              <img src="/fb.png" alt="" />
-              <img src="/insta.png" alt="" />
-              <img src="/li.png" alt="" />
-              <img src="twitter.png" alt="" />
+            <a href="">  <img src="/fb.png" alt="" /></a>
+             <a href=""> <img src="/insta.png" alt="" /></a>
+             <a href=""> <img src="/li.png" alt="" /> </a>
+              <a href="">  <img src="twitter.png" alt="" /></a>
               </div>
         </div>
       </div>

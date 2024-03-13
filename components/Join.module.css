@@ -15,7 +15,7 @@
     color: #071c54;
 }
 .jpage1 p{
-color: silver;
+  color: rgb(119, 119, 119);
 margin-top: -40px;
 }
 .joinusform{
@@ -60,7 +60,7 @@ margin-top: -40px;
     font-size: 35px;
   }
   .main7left p{
-  color: rgb(166, 166, 166);
+    color: rgb(119, 119, 119);
   font-family: "Gilroy";
   line-height: 24px;
   }
@@ -324,7 +324,7 @@ margin-top: -40px;
     margin-bottom: -2px;
   }
   .jpage3top p{
-    color: silver;
+    color: rgb(119, 119, 119);
     line-height: 22px;
   }
   .jpage3bottom{
@@ -375,7 +375,9 @@ margin-top: -40px;
     color: #071c54;
     font-family: "Gilroy";
   }
-
+.exp h5{
+  color: rgb(119, 119, 119);
+}
   .jcard button:hover{
     font-weight: 900;
   }
@@ -560,4 +562,5 @@ margin-top: -40px;
       font-size: 12px;
       height: 30%;
     }
+
    }

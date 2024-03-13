@@ -1,9 +1,8 @@
 {
   "/contact/page": "app/contact/page.js",
-  "/page": "app/page.js",
-  "/job/page": "app/job/page.js",
-  "/blog/page": "app/blog/page.js",
+  "/joinus/page": "app/joinus/page.js",
   "/wd/page": "app/wd/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/webdev/page": "app/webdev/page.js"
+  "/services/page": "app/services/page.js",
+  "/appdev/page": "app/appdev/page.js",
+  "/page": "app/page.js"
 }

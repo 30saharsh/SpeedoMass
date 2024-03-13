@@ -1,0 +1,959 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./components/JoinUsPopup.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+.JoinUsPopup_overlay__sud5n {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    -webkit-backdrop-filter: blur(8px);
+            backdrop-filter: blur(8px); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .JoinUsPopup_popup__Racmh {
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 1s all;
+    background: #fff;
+position: relative;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    z-index: 99999999;
+    font-family: "Gilroy";
+  }
+  .JoinUsPopup_popup__Racmh h2{
+    color: #11235d;
+  }
+  
+  .JoinUsPopup_buttons___mVOz {
+    margin-top: 20px;
+    font-family: "Gilroy";
+  }
+  
+ .JoinUsPopup_buttons___mVOz button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    background: linear-gradient(to right, #0d3bbc, #11235d);
+    color: #fff;
+    border-radius: 12px;
+
+  }
+  .JoinUsPopup_cb__4HzYF{
+    width: 70px;
+    height: 30px;
+        margin-top: 5px;
+        border: none;
+        background: linear-gradient(to right, #0d3bbc, #11235d);
+        color: #fff;
+        border-radius: 12px;
+        cursor: pointer;
+  }
+  
+/*!************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./components/Loader.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************/
+.Loader_loader__0RxP_{
+    width: 100%;
+    height: 1000vh;
+    background-color: #fff;
+    display: flex;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+}
+.Loader_loader__0RxP_ img{
+    width: 70px;
+    color: blue;
+    height: 70px;
+}
+/*!************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./components/NavBar.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************/
+.NavBar_nav__i8le3 {
+  width: 100%;
+  height: 17vh;
+  /* background-color: rebeccapurple; */
+  border-bottom: 2px solid silver;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Gilroy";
+}
+.NavBar_nav__i8le3 a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+.NavBar_nav__i8le3 .NavBar_middle__NRFPQ a:hover {
+  font-weight: 700;
+  transition: cubic-bezier(0.19, 1, 0.22, 1) 0.21s all;
+}
+.NavBar_middle__NRFPQ {
+  width: 45vw;
+  /* background-color: red; */
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.NavBar_join__i4PR4 {
+  width: 100px;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 17px;
+  background: linear-gradient(to right, #0d3bbc, #11235d);
+  color: #fff;
+  font-weight: 500;
+  font-family: "Gilroy";
+  cursor: pointer;
+}
+
+.NavBar_hamburgericon__JAlwo {
+  width: 30px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+.NavBar_hmbutton__Hyp8l {
+  display: none;
+}
+
+.NavBar_line__YbAeU {
+  width: 100%;
+  height: 4px;
+  background-color: #000; /* Adjust the color as needed */
+  transition: 0.3s;
+}
+
+.NavBar_hamburgericon__JAlwo.NavBar_open__wVZJO .NavBar_line__YbAeU:nth-child(1) {
+  transform: rotate(-45deg) translate(-5px, 5px);
+}
+
+.NavBar_hamburgericon__JAlwo.NavBar_open__wVZJO .NavBar_line__YbAeU:nth-child(2) {
+  opacity: 0;
+}
+
+.NavBar_hamburgericon__JAlwo.NavBar_open__wVZJO .NavBar_line__YbAeU:nth-child(3) {
+  transform: rotate(45deg) translate(-5px, -5px);
+}
+
+.NavBar_menu__LcKYk{
+    display: none;
+}
+
+@media (max-width: 568px) {
+  .NavBar_nav__i8le3 img {
+    width: 80px;
+    height: 30px;
+  }
+
+  .NavBar_middle__NRFPQ {
+    display: none;
+  }
+  .NavBar_hmbutton__Hyp8l {
+    display: initial;
+  }
+  .NavBar_menu__LcKYk{
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+background-color: #dadada;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+  }
+  .NavBar_menu__LcKYk a{
+    text-decoration: none;
+    color: black;
+    font-family: "Gilroy";
+  }
+  .NavBar_join__i4PR4{
+    display: none;
+  }
+  .NavBar_nav__i8le3 img{
+    width: 30%;
+  }
+}
+
+/*!************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./components/Footer.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************/
+.Footer_footermain__ZGdk4{
+    width: 100%;
+    height: 60vh;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.Footer_section1__IsNim{
+    width: 30%;
+    height: 100%;
+/* background-color: rebeccapurple; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Gilroy";
+    justify-content: center;
+}
+.Footer_section1__IsNim h3{
+    color: #071C54;
+}
+.Footer_section1__IsNim p{
+    color: rgb(119, 119, 119);
+    text-align: left;
+    /* background-color: red; */
+    line-height: 22px;
+    margin-top: -6px;
+    width: 19.5vw;
+}
+.Footer_section2__6RNt0{
+    width: 25%;
+    height: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: "Gilroy";
+    gap: 6px;
+}
+.Footer_section2__6RNt0 a{
+    text-decoration:none;
+    color: rgb(119, 119, 119);
+}
+.Footer_section2__6RNt0 h3{
+    color: #071C54;
+    font-size: 23px;
+}
+.Footer_section3__E6oyo{
+    width: 25%;
+    height: 100%;
+    /* background-color: orange; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: "Gilroy";
+    gap: 10px;
+}
+.Footer_section3__E6oyo a{
+    text-decoration:none;
+    color: rgb(119, 119, 119);
+}
+.Footer_section3__E6oyo h3{
+    color: #071C54;
+    font-size: 23px;
+}
+.Footer_section4__dKSxI{
+    width: 25%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: "Gilroy";
+}
+.Footer_section4__dKSxI h3{
+    color: #071C54;
+    font-size: 23px;
+}
+.Footer_icons__NQNqC{
+    width: 16vw;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Footer_icons__NQNqC img{
+    width: 25px;
+    height: 25px;
+}
+.Footer_footerlow__3RgFJ{
+    width: 100%;
+    border-top: 2px solid silver;
+    height: 12vh;
+    /* background-color: saddlebrown; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gilroy';
+    color: silver;
+
+}
+.Footer_section2__6RNt0 a:hover{
+    font-weight: 900;
+    color: #071c54;
+}
+.Footer_section3__E6oyo a:hover{
+    font-weight: 900;
+    color: #071c54;
+}
+.Footer_section4__dKSxI a:hover{
+    font-weight: 900;
+    color: #071c54;
+}
+
+@media (max-width:568px) {
+
+.Footer_footermain__ZGdk4{
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Footer_section1__IsNim{
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+  
+}
+.Footer_section1__IsNim p{
+    text-align: center;
+    width: 90%;
+}
+.Footer_section2__6RNt0{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: fit-content;background-color: green; */
+}
+.Footer_section2__6RNt0 p{
+    text-align: center;
+}
+.Footer_section3__E6oyo{
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.Footer_section3__E6oyo p{
+    text-align: center;
+}
+.Footer_section4__dKSxI{
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.Footer_section4__dKSxI p{
+    text-align: center;
+}
+.Footer_icons__NQNqC{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+}
+.Footer_footerlow__3RgFJ p{
+    text-align: center;
+}
+
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./components/Join.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************/
+.Join_jpage1___MK0D{
+    width: 100%;
+    height: 60vh;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Gilroy";
+}
+.Join_jpage1___MK0D h1{
+    font-family: "Gilroy";
+    font-size: 62px;
+    font-weight: 700;
+    color: #071c54;
+}
+.Join_jpage1___MK0D p{
+  color: rgb(119, 119, 119);
+margin-top: -40px;
+}
+.Join_joinusform__JDr2R{
+  background-color: red;
+}
+
+.Join_main7__IJk3_{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    /* background-color: pink; */
+    justify-content: center;
+  }
+  .Join_main7left__MJhsq{
+  width: 45%;
+  height: 75%;
+  padding: 12px;
+  margin-left: 7.7vw;
+  /* background-color: green; */
+  }
+  
+  .Join_main7right__3PSp8{
+    width: 45%;
+  height: 90%;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  .Join_main7left__MJhsq h2{
+    font-family: "Gilroy";
+    color: orange;
+    font-weight: 500;
+    font-size: 35px;
+  }
+  .Join_main7left__MJhsq h1{
+    font-family: "Gilroy";
+    color:#071c54;
+    font-size: 35px;
+  }
+  .Join_main7left__MJhsq p{
+    color: rgb(119, 119, 119);
+  font-family: "Gilroy";
+  line-height: 24px;
+  }
+  .Join_sap1__hPdN1{
+    width: 150px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 17px;
+    background: linear-gradient(to right, #0d3bbc, #11235d);
+    color: #fff;
+    font-weight: 500;
+    padding: 5px;
+    margin-top: 35px;
+    margin-bottom: -2px;
+    font-family: "Gilroy";
+  }
+  .Join_main7rightup__AxSn1{
+    width: 110%;
+    height: 50%;
+    margin-right: 105px;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    justify-content: center;
+    margin-bottom: -70px;
+  }
+  .Join_main7rightdown__zhQ0C{
+    width: 100%;
+    height: 50%;
+    /* background-color: rgb(12, 75, 169); */
+    margin-right: 105px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    justify-content: center;
+  }
+  .Join_mrubox1__JDRnk{
+    width: 13vw;
+    height: 22vh;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 13px;
+    justify-content: center;
+    /* background: linear-gradient(to right, #0d3bbc, #11235d); */
+    /* border: 2px solid silver; */
+    background-color: #FAFAFA;
+    padding: 25px;
+    font-family: "Gilroy";
+  }
+  
+  .Join_mrubox1__JDRnk:hover{
+    width: 13vw;
+    height: 22vh;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 13px;
+    justify-content: center;
+    background: linear-gradient(to right, #0d3bbc, #11235d);
+    border: 2px solid silver;
+    padding: 25px;
+    color: #fff;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 1s all;
+    font-family: "Gilroy";
+    cursor: pointer;
+    
+  }
+  .Join_mrubox1__JDRnk img{
+    width: 30px;
+    height: 40px;
+    margin-bottom: -8px;
+    filter: brightness(10%) hue-rotate(53deg) saturate(100%) brightness(100%) contrast(110%);
+  }
+  
+  
+  .Join_mrubox1__JDRnk p{
+    font-family: "Gilroy";
+    color: silver;
+    font-size: 10px;
+  }
+  .Join_mrubox1__JDRnk p:hover{
+    font-family: "Gilroy";
+    color: #fff;
+    font-size: 10px;
+  }
+  
+  .Join_mrubox2__N3bgA{
+    width: 13vw;
+    height: 22vh;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 13px;
+    justify-content: center;
+    /* background: linear-gradient(to right, #0d3bbc, #11235d); */
+    background-color: #FAFAFA;
+    padding: 25px;
+    font-family: "Gilroy";
+    color: #071c54;
+  }
+  .Join_mrubox2__N3bgA:hover{
+    width: 13vw;
+    height: 22vh;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 13px;
+    justify-content: center;
+    background: linear-gradient(to right, #0d3bbc, #11235d);
+    border: 2px solid silver;
+    padding: 25px;
+    color: #fff;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 1s all;
+    font-family: "Gilroy";
+    cursor: pointer;
+  }
+  .Join_mrubox2__N3bgA img{
+    width: 30px;
+    height: 40px;
+    margin-bottom: -8px;
+  }
+  
+  .Join_mrubox2__N3bgA p{
+    font-family: "Gilroy";
+    color: silver;
+    font-size: 10px;
+  }
+  .Join_mrubox2__N3bgA p:hover{
+    font-family: "Gilroy";
+    color: #fff;
+    font-size: 10px;
+  }
+  .Join_mrubox3__fGFT_{
+    width: 13vw;
+    height: 22vh;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 13px;
+    justify-content: center;
+    /* background: linear-gradient(to right, #0d3bbc, #11235d); */
+    background-color: #FAFAFA;
+    padding: 25px;
+    font-family: "Gilroy";
+    color: #071c54;
+  }
+  .Join_mrubox3__fGFT_:hover{
+    width: 13vw;
+    height: 22vh;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 13px;
+    justify-content: center;
+    background: linear-gradient(to right, #0d3bbc, #11235d);
+    border: 2px solid silver;
+    padding: 25px;
+    color: #fff;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 1s all;
+    font-family: "Gilroy";
+    cursor: pointer;
+  }
+  .Join_mrubox3__fGFT_ img{
+    width: 30px;
+    height: 40px;
+    margin-bottom: -8px;
+  }
+  
+  .Join_mrubox3__fGFT_ p{
+    font-family: "Gilroy";
+    color: silver;
+    font-size: 10px;
+  }
+  .Join_mrubox3__fGFT_ p:hover{
+    font-family: "Gilroy";
+    color: #fff;
+    font-size: 10px;
+  }
+  .Join_mrubox4__OGfXM{
+    width: 13vw;
+    height: 22vh;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 13px;
+    justify-content: center;
+    /* background: linear-gradient(to right, #0d3bbc, #11235d); */
+    background-color: #FAFAFA;
+    padding: 25px;
+    font-family: "Gilroy";
+    color: #071c54;
+  }
+  .Join_mrubox4__OGfXM:hover{
+    width: 13vw;
+    height: 22vh;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 13px;
+    justify-content: center;
+    background: linear-gradient(to right, #0d3bbc, #11235d);
+    border: 2px solid silver;
+    padding: 25px;
+    color: #fff;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 1s all;
+    font-family: "Gilroy";
+    cursor: pointer;
+  }
+  .Join_mrubox4__OGfXM img{
+    width: 30px;
+    height: 40px;
+    margin-bottom: -8px;
+  }
+  
+  .Join_mrubox4__OGfXM p{
+    font-family: "Gilroy";
+    color: silver;
+    font-size: 10px;
+  }
+  .Join_mrubox4__OGfXM p:hover{
+    font-family: "Gilroy";
+    color: #fff;
+    font-size: 10px;
+  }
+  .Join_jpage3__zL5sp{
+    width: 100%;
+    height: 150vh;
+    /* background-color: rebeccapurple; */
+  }
+  .Join_jpage3top__GqwPw{
+    width: 100%;
+    height: 30%;
+    /* background-color: yellowgreen; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Gilroy";  
+    text-align: center;
+  }
+  .Join_jpage3top__GqwPw h2{
+    color: orange;
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: -25px;
+  }
+  .Join_jpage3top__GqwPw h1{
+    color: #071c54;
+    font-size: 40px;
+    margin-bottom: -2px;
+  }
+  .Join_jpage3top__GqwPw p{
+    color: rgb(119, 119, 119);
+    line-height: 22px;
+  }
+  .Join_jpage3bottom__tbUJO{
+    width: 100%;
+    height: 50%;
+    /* background-color: crimson; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Join_jpage3bottomleft__hq84_{
+    width: 30%;
+    height: 100%;
+    /* background-color: greenyellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #071c54;
+  }
+  .Join_jpage3bottomright__w_ekF{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(54, 13, 143); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .Join_jcard__IHWZa{
+    width: 60%;
+    height: 50%;
+    border: 2px solid silver;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 22px;
+    padding-left: 22px;
+  }
+  .Join_jcard__IHWZa button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration: none;
+    color: #071c54;
+    font-family: "Gilroy";
+  }
+.Join_exp__lgh6a h5{
+  color: rgb(119, 119, 119);
+}
+  .Join_jcard__IHWZa button:hover{
+    font-weight: 900;
+  }
+  .Join_widecard__vtLRn{
+        width: 90%;
+        height: 15%;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-family: "Gilroy";
+        border-radius:24px;
+        /* background-color: red; */
+  }
+
+  .Join_widecard__vtLRn h5{
+   color: silver;
+   font-weight: 500;
+   margin-bottom: -15px; 
+  }
+  .Join_widecard__vtLRn h4{
+   color: #071c54;
+   }
+
+   @media(max-width:568px){
+    .Join_jpage1___MK0D{
+      /* background-color: red; */
+      width: 100%;
+      height: -moz-fit-content;
+      height: fit-content;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+    }
+    .Join_main7__IJk3_{
+      /* background-color: red; */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      height: -moz-fit-content;
+      height: fit-content;
+      width: 100%;
+      text-align: center;
+    }
+    .Join_main7left__MJhsq{
+      width: 79%;
+      height: -moz-fit-content;
+      height: fit-content;
+      margin-left: 0vw;
+    }
+    .Join_main7right__3PSp8{
+      width: 100%;
+      height: -moz-fit-content;
+      height: fit-content;
+      /* background-color: aqua; */
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      /* flex-direction: column; */
+      gap: 100px;
+    }
+    .Join_main7rightup__AxSn1{
+      width: 100%;
+      height: -moz-fit-content;
+      height: fit-content;
+      /* background-color: greenyellow; */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .Join_main7rightdown__zhQ0C{
+      width: 100%;
+      height: -moz-fit-content;
+      height: fit-content;
+      /* background-color: pink; */
+      /* margin-top: 50px; */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .Join_mrubox1__JDRnk{
+      width: 70%;
+      /* display: none; */
+    }
+    .Join_mrubox1__JDRnk:hover{
+      width: 70%;
+      height: 22vh;
+      border-radius: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 13px;
+      justify-content: center;
+      background: linear-gradient(to right, #0d3bbc, #11235d);
+      border: 2px solid silver;
+      padding: 25px;
+      color: #fff;
+      transition: cubic-bezier(0.19, 1, 0.22, 1) 1s all;
+      font-family: "Gilroy";
+      cursor: pointer;
+    }
+    .Join_mrubox2__N3bgA{
+      width: 70%;
+      /* display: none; */
+    }
+    .Join_mrubox2__N3bgA:hover{
+      width: 70%;
+      height: 22vh;
+      border-radius: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 13px;
+      justify-content: center;
+      background: linear-gradient(to right, #0d3bbc, #11235d);
+      border: 2px solid silver;
+      padding: 25px;
+      color: #fff;
+      transition: cubic-bezier(0.19, 1, 0.22, 1) 1s all;
+      font-family: "Gilroy";
+      cursor: pointer;
+    }
+    .Join_mrubox3__fGFT_{
+      width:70%;
+      /* display: none; */
+    }
+    .Join_mrubox3__fGFT_:hover{
+      width: 70%;
+      height: 22vh;
+      border-radius: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 13px;
+      justify-content: center;
+      background: linear-gradient(to right, #0d3bbc, #11235d);
+      border: 2px solid silver;
+      padding: 25px;
+      color: #fff;
+      transition: cubic-bezier(0.19, 1, 0.22, 1) 1s all;
+      font-family: "Gilroy";
+      cursor: pointer;
+    }
+    .Join_mrubox4__OGfXM{
+      width: 70%;
+      /* display: none; */
+    }
+    .Join_mrubox4__OGfXM:hover{
+      width: 70%;
+      height: 22vh;
+      border-radius: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 13px;
+      justify-content: center;
+      background: linear-gradient(to right, #0d3bbc, #11235d);
+      border: 2px solid silver;
+      padding: 25px;
+      color: #fff;
+      transition: cubic-bezier(0.19, 1, 0.22, 1) 1s all;
+      font-family: "Gilroy";
+      cursor: pointer;
+    }
+   
+    .Join_jpage3bottom__tbUJO{
+      width: 100%;
+      height: -moz-fit-content;
+      height: fit-content;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .Join_jpage3bottomleft__hq84_{
+      width: 100%;
+      margin-bottom: 30px;
+    }
+    .Join_jpage3bottomright__w_ekF{
+      width: 100%;
+    }
+    .Join_widecard__vtLRn{
+      width: 100%;
+      font-size: 12px;
+      height: 30%;
+    }
+
+   }

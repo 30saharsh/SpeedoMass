@@ -75,12 +75,12 @@ padding-left: 32px;
     color: #071c54;
 }
 .wdpage3left li{
-    color: silver;
+    color: rgb(119, 119, 119);
     margin-bottom: 5px;
     font-size: 12px;
 }
 .wdpage3left p{
-    color: silver;
+    color: rgb(119, 119, 119);
     line-height: 25px;
     font-size: 12px;
     width: 35vw;
@@ -92,6 +92,9 @@ padding-left: 32px;
 }
 .data h3{
     margin-left: 30px;
+}
+.icons a:hover{
+    cursor: pointer;
 }
 .tap{
     margin-top: 10px;
