@@ -9,7 +9,7 @@ const AdminDashboard = () => {
   const [Contcatdata, setContcatdata] = useState([]);
   const [JobApplications, setJobApplications] = useState([]);
 
-  const server = process.env.NODE_BACKEND_URL;
+  const server = process.env.NEXT_PUBLIC_API_URL;
 
 const HomePageDataFetch = async () =>{
 const response = await axios.get(`${server}/viewhomedata`)

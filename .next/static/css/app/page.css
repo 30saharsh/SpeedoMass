@@ -2558,6 +2558,7 @@ position: relative;
     padding: 20px;
     border-radius: 8px;
     text-align: center;
+    z-index: 99999999;
     font-family: "Gilroy";
   }
   .JoinUsPopup_popup__Racmh h2{

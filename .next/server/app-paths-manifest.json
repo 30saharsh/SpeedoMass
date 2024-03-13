@@ -1,8 +1,9 @@
 {
-  "/privacy/page": "app/privacy/page.js",
-  "/tc/page": "app/tc/page.js",
+  "/contact/page": "app/contact/page.js",
   "/page": "app/page.js",
-  "/about/page": "app/about/page.js",
   "/job/page": "app/job/page.js",
-  "/contact/page": "app/contact/page.js"
+  "/blog/page": "app/blog/page.js",
+  "/wd/page": "app/wd/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/webdev/page": "app/webdev/page.js"
 }

@@ -11,7 +11,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
 
-  const server = process.env.NODE_BACKEND_URL;
+  const server = process.env.NEXT_PUBLIC_API_URL;
   const [Firstname, setFirstname] = useState("");
   const [Lastname, setLastname] = useState("");
   const [Email, setEmail] = useState("");
@@ -43,7 +43,7 @@ const Contact = () => {
   const handleSubjectChange = (e) => {
     setSelectedSubject(e.target.value);
   };
-
+  
   console.log(Firstname)
 
 

@@ -10,7 +10,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const Job = () => {
 
-  const server = process.env.NODE_BACKEND_URL;
+  const server = process.env.NEXT_PUBLIC_API_URL;
   const [file, setFile] = useState("");
   const [fileName, setFileName] = useState("");
   const [Firstname, setFirstname] = useState("");

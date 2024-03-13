@@ -10,7 +10,8 @@ import "react-toastify/dist/ReactToastify.css";
 import Loader from "./Loader";
 const Home = () => {
   
-  const server = process.env.NODE_BACKEND_URL;
+  const server = process.env.NEXT_PUBLIC_API_URL;
+  console.log("This is Server",server)
   const clientReviews = [
     {
       text: "Got my android and iOS application designed by the Speedomass, it was delivered earlier than I expected. I’ll definitely work with them again in the future for my app management and updates",
