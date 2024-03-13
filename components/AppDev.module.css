@@ -36,7 +36,7 @@
     margin-bottom: -2px;
 }
 .page1left p{
-    color: silver;
+    color: rgb(119, 119, 119);
     line-height: 22px;
 }
 .dmappdevpage{
@@ -131,13 +131,16 @@ line-height: 22px;
 .adthreeleft{
     width: 55%;
     height: 100%;
-    /* background-color: ghostwhite; */
+    /* background-color:blue; */
     display: flex;
     align-items: flex-start;
     padding: 22px;
     justify-content: center;
     flex-direction: column;
     font-family: "Gilroy";
+}
+.adthreeleft p{
+    color: rgb(119, 119, 119);
 }
 .adthreeright{
     width: 35%;
@@ -292,6 +295,9 @@ line-height: 22px;
     /* background-color: aqua; */
 
   }
+  .experience{
+    color: rgb(119, 119, 119);
+  }
   
   .slider {
     overflow: hidden;
@@ -404,9 +410,12 @@ border-radius: 30px;
 
   @media (max-width:568px) {
 
-
 .page1left{
     text-align: center;
+    /* background-color: red; */
+    height: fit-content;
+    margin-top: -290px;
+    width: 100%;
 }
     .page1right{
         display: none;
@@ -414,13 +423,13 @@ border-radius: 30px;
 
     .adpage2{
         width: 100%;
-    
+    /* background-color: greenyellow; */
         height: fit-content;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        margin-top: 50px;
+        margin-top: -250px;
     }
 .page2bottom{
     display: flex;
@@ -497,5 +506,8 @@ overflow: hidden;
   }
   .bottominfo{
     display: none;
+  }
+  .dmappdevpage{
+    margin: auto;
   }
   }

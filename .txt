@@ -5,3 +5,4 @@
     formData.append("AppliedPosition" , Appliedposition)
     formData.append("InterviewDate" , InterviewDate)
     formData.append("CoverLetter" , CoverLetter)
+      color: rgb(119, 119, 119);

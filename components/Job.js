@@ -12,7 +12,7 @@ const Job = () => {
 
   const server = process.env.NODE_BACKEND_URL;
   const [file, setFile] = useState("");
-  const [fileName, setFileName] = useState("Filename Here...");
+  const [fileName, setFileName] = useState("");
   const [Firstname, setFirstname] = useState("");
   const [Lastname, setLastname] = useState("");
   const [Email, setEmail] = useState("");
@@ -138,7 +138,7 @@ const Job = () => {
                     accept="application/pdf"
                     onChange={handleFileChange}
                   />
-                  <h5 style={{ color: "black" }}>{fileName}</h5>
+                  <p style={{ color: "black" }}>{fileName}</p>
                   <p>Drag & Drop File Here</p>
                 </div>
               </div>

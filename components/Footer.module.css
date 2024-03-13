@@ -10,7 +10,7 @@
 .section1{
     width: 30%;
     height: 100%;
-
+/* background-color: rebeccapurple; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,7 +21,7 @@
     color: #071C54;
 }
 .section1 p{
-    color: silver;
+    color: rgb(119, 119, 119);
     text-align: left;
     /* background-color: red; */
     line-height: 22px;
@@ -41,7 +41,7 @@
 }
 .section2 a{
     text-decoration:none;
-    color: silver;
+    color: rgb(119, 119, 119);
 }
 .section2 h3{
     color: #071C54;
@@ -60,7 +60,7 @@
 }
 .section3 a{
     text-decoration:none;
-    color: silver;
+    color: rgb(119, 119, 119);
 }
 .section3 h3{
     color: #071C54;
@@ -103,6 +103,18 @@
     color: silver;
 
 }
+.section2 a:hover{
+    font-weight: 900;
+    color: #071c54;
+}
+.section3 a:hover{
+    font-weight: 900;
+    color: #071c54;
+}
+.section4 a:hover{
+    font-weight: 900;
+    color: #071c54;
+}
 
 @media (max-width:568px) {
 
@@ -121,15 +133,14 @@
 }
 .section1 p{
     text-align: center;
+    width: 90%;
 }
 .section2{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: fit-content;
-
-  
+    /* height: fit-content;background-color: green; */
 }
 .section2 p{
     text-align: center;

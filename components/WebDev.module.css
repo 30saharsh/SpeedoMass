@@ -41,7 +41,7 @@ justify-content: center;
     margin-bottom: -3px;
 }
 .wdpage1left p{
-    color: silver;
+    color: rgb(119, 119, 119);
     width: 40vw;
     /* background-color: red; */
     line-height: 22px;
@@ -94,7 +94,7 @@ justify-content: center;
     color: #071c54;
 }
 .wdpage2right p{
-    color: silver;
+    color: rgb(119, 119, 119);
     line-height: 25px;
     font-size: 15px;
 }
@@ -292,6 +292,9 @@ border-radius: 30px;
     gap: 62px;
     color: silver;
 }
+.topinfo p{
+    color: rgb(119, 119, 119);
+}
 .topinfo img{
     width: 95px;
     height: 20px;
@@ -380,6 +383,7 @@ border-radius: 30px;
 
 .wdpage1right{
     display: none;
+   
 }
 .wdpage2{
     width: 100%;
@@ -388,13 +392,18 @@ border-radius: 30px;
 }
 .wdpage2left{
     display: none;
+    /* background-color: greenyellow; */
 }
 .wdpage2right{
+    width: 100%;
+    height: fit-content;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    /* background-color: greenyellow; */
+    margin-bottom: 30px;
 }
 .wdpage3{
     /* background-color: aqua; */

@@ -13,7 +13,7 @@
 .Footer_section1__IsNim{
     width: 30%;
     height: 100%;
-
+/* background-color: rebeccapurple; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,7 +24,7 @@
     color: #071C54;
 }
 .Footer_section1__IsNim p{
-    color: silver;
+    color: rgb(119, 119, 119);
     text-align: left;
     /* background-color: red; */
     line-height: 22px;
@@ -44,7 +44,7 @@
 }
 .Footer_section2__6RNt0 a{
     text-decoration:none;
-    color: silver;
+    color: rgb(119, 119, 119);
 }
 .Footer_section2__6RNt0 h3{
     color: #071C54;
@@ -63,7 +63,7 @@
 }
 .Footer_section3__E6oyo a{
     text-decoration:none;
-    color: silver;
+    color: rgb(119, 119, 119);
 }
 .Footer_section3__E6oyo h3{
     color: #071C54;
@@ -107,6 +107,18 @@
     color: silver;
 
 }
+.Footer_section2__6RNt0 a:hover{
+    font-weight: 900;
+    color: #071c54;
+}
+.Footer_section3__E6oyo a:hover{
+    font-weight: 900;
+    color: #071c54;
+}
+.Footer_section4__dKSxI a:hover{
+    font-weight: 900;
+    color: #071c54;
+}
 
 @media (max-width:568px) {
 
@@ -127,16 +139,14 @@
 }
 .Footer_section1__IsNim p{
     text-align: center;
+    width: 90%;
 }
 .Footer_section2__6RNt0{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: -moz-fit-content;
-    height: fit-content;
-
-  
+    /* height: fit-content;background-color: green; */
 }
 .Footer_section2__6RNt0 p{
     text-align: center;
@@ -878,11 +888,16 @@
   \************************************************************************************************************************************************************************************************************************************************************************/
 .Loader_loader__0RxP_{
     width: 100%;
-    height: 100vh;
-    /* background-color: peru; */
+    height: 1000vh;
+    background-color: #fff;
     display: flex;
+    z-index: 1;
     align-items: center;
     justify-content: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
 }
 .Loader_loader__0RxP_ img{
     width: 70px;
@@ -926,7 +941,7 @@
   margin-bottom: -2px;
 }
 .Home_homepara__Yx_Wb {
-  color: rgb(165, 165, 165);
+  color: rgb(119, 119, 119);
   line-height: 22px;
 }
 .Home_discover__O04Fm {
@@ -1060,7 +1075,7 @@ justify-content: center;
   font-family: "Gilroy";
 }
 .Home_home2para__KIZmW{
-  color: rgb(165, 165, 165);
+  color: rgb(119, 119, 119);
   line-height: 22px;
   font-family: "Gilroy";
   margin-top: 1px;
@@ -1261,7 +1276,7 @@ justify-content: center;
 }
 .Home_hereleftpara__6mdrb{
   width: 30vw;
-  color: rgb(165, 165, 165);
+  color: rgb(119, 119, 119);
   line-height: 22px;
 /* background-color: red; */
 }
@@ -1373,7 +1388,7 @@ border: 2px solid silver;
   font-weight: 300;
 }
 .Home_lowerbox2__C_fFo p{
-  color: rgb(165, 165, 165);
+  color: rgb(119, 119, 119);
     font-family: "Gilroy";
     font-size: 0.9vw;
     line-height: 19px;
@@ -1554,7 +1569,7 @@ justify-content: center;
   font-size: 35px;
 }
 .Home_main7left__suQL1 p{
-  color: rgb(165, 165, 165);
+  color: rgb(119, 119, 119);
 font-family: "Gilroy";
 line-height: 24px;
 }
@@ -1637,7 +1652,7 @@ line-height: 24px;
 
 .Home_mrubox1__tJF3U p{
   font-family: "Gilroy";
-  color: rgb(165, 165, 165);
+  color: rgb(119, 119, 119);
   font-size: 10px;
 }
 .Home_mrubox1__tJF3U p:hover{
@@ -1685,7 +1700,7 @@ line-height: 24px;
 
 .Home_mrubox2__Cl48Q p{
   font-family: "Gilroy";
-  color: rgb(165, 165, 165);
+  color: rgb(119, 119, 119);
   font-size: 10px;
 }
 .Home_mrubox2__Cl48Q p:hover{
@@ -1732,7 +1747,7 @@ line-height: 24px;
 
 .Home_mrubox3__RyZ7C p{
   font-family: "Gilroy";
-  color: rgb(165, 165, 165);
+  color: rgb(119, 119, 119);
   font-size: 10px;
 }
 .Home_mrubox3__RyZ7C p:hover{
@@ -1779,7 +1794,7 @@ line-height: 24px;
 
 .Home_mrubox4__0gEX2 p{
   font-family: "Gilroy";
-  color: rgb(165, 165, 165);
+  color: rgb(119, 119, 119);
   font-size: 10px;
 }
 .Home_mrubox4__0gEX2 p:hover{
@@ -1800,7 +1815,7 @@ line-height: 24px;
 }
 .Home_main8__Omc6c p{
   font-size: 13px;
-  color: silver;
+  color: rgb(119, 119, 119);
   line-height: 23px;
   width: 80vw;
   margin-top: -2px;
@@ -1859,7 +1874,7 @@ margin-bottom: -5px;
 }
 .Home_main9right__PbDjT p{
   font-family: "Gilroy";
-color:silver;
+  color: rgb(119, 119, 119);
 line-height: 20px;
 }
 .Home_gst__NCA6z{
@@ -2031,7 +2046,7 @@ font-family: "Gilroy";
   margin-bottom: -12px;
 }
 .Home_main12right___6rZb p{
-  color:silver;
+  color: rgb(119, 119, 119);
   margin-bottom: 17px;
   margin-top: 27px;
   line-height: 30px;

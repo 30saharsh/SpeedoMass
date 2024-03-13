@@ -34,9 +34,10 @@
 }
 .aboutbelowleft p{
     font-size: 12px;
-    color: silver;
+    color: rgb(119, 119, 119);
     line-height: 20px;
     margin-bottom: 12px;
+    /* background-color: aquamarine; */
 }
 .aboutbelowrihgt{
     width: 30%;
@@ -135,7 +136,7 @@
     justify-content: space-around;
 }
 .aboutpage3centerright p{
-    color: silver;
+    color: rgb(119, 119, 119);
     font-size: 14px;
 }
 .ouranalysisleft{
@@ -326,7 +327,7 @@ text-align: center;
     text-align: center;
 }
 .aboutpage3{
-    margin-top: 120px;
+    margin-top: 20px;
 }
 .ouranalysis{
     width: 100%;
@@ -351,13 +352,13 @@ text-align: center;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 50px;
+    /* margin-top: 0px; */
 }
 .aboutpage4card{
     width: 100%;
 }
 .ourtm{
-    margin-top: 300px;
+    margin-top: 60px;
 }
 .aboutpage5inputs{
     display: flex;
@@ -423,6 +424,12 @@ border-radius: 15px;
     align-items: center;
     justify-content: center;
 }
-
-
+.aboutbelowleft{
+    width: 90%;
+    height: fit-content;
+    /* background-color: red; */
+}
+.aboutpage3centerright{
+    width: 100%;
+}
 }

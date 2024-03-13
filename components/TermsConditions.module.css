@@ -15,7 +15,7 @@
     color: #071c54;
 }
 .copage1 p{
-color: silver;
+    color: rgb(119, 119, 119);
 margin-top: -40px;
 }
 .copage2{
@@ -38,6 +38,7 @@ margin-top: -40px;
 .first p{
     font-size: 13px;
     line-height: 19px;
+    color: rgb(119, 119, 119);
 }
 .second{
     width: 80%;
@@ -49,6 +50,7 @@ margin-top: -40px;
 .second p{
     font-size: 13px;
     line-height: 19px;
+    color: rgb(119, 119, 119);
 }
 .third{
     width: 80%;
@@ -60,6 +62,7 @@ margin-top: -40px;
 .third p{
     font-size: 13px;
     line-height: 19px;
+    color: rgb(119, 119, 119);
 }
 .fourth{
     width: 80%;
@@ -70,6 +73,7 @@ margin-top: -40px;
 }
 .fourth p{
     font-size: 13px;
+    color: rgb(119, 119, 119);
     line-height: 19px;
 }
 .fifth{
@@ -82,6 +86,7 @@ margin-top: -40px;
 .fifth p{
     font-size: 13px;
     line-height: 19px;
+    color: rgb(119, 119, 119);
 }
 .sixth{
     width: 80%;
@@ -93,6 +98,7 @@ margin-top: -40px;
 .sixth p{
     font-size: 13px;
     line-height: 19px;
+    color: rgb(119, 119, 119);
 }
 .seventh{
     width: 80%;
@@ -104,6 +110,7 @@ margin-top: -40px;
 .seventh p{
     font-size: 13px;
     line-height: 19px;
+    color: rgb(119, 119, 119);
 }
 .eighth{
     width: 80%;
@@ -115,6 +122,7 @@ margin-top: -40px;
 .eighth p{
     font-size: 13px;
     line-height: 19px;
+    color: rgb(119, 119, 119);
 }
 .ninth{
     width: 80%;
@@ -126,6 +134,7 @@ margin-top: -40px;
 .ninth p{
     font-size: 13px;
     line-height: 19px;
+    color: rgb(119, 119, 119);
 }
 .tenth{
     width: 80%;
@@ -137,6 +146,7 @@ margin-top: -40px;
 .tenth p{
     font-size: 13px;
     line-height: 19px;
+    color: rgb(119, 119, 119);
 }
 .eleventh{
     width: 80%;
@@ -148,6 +158,7 @@ margin-top: -40px;
 .eleventh p{
     font-size: 13px;
     line-height: 19px;
+    color: rgb(119, 119, 119);
 }
 @media(max-width:568px){
 

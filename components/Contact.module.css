@@ -15,7 +15,7 @@
     color: #071c54;
 }
 .cpage1 p{
-color: silver;
+    color: rgb(119, 119, 119);
 margin-top: -40px;
 }
 .cpage2{
@@ -121,11 +121,11 @@ padding: 10px;
     border: none;
     color: black;
     outline: none;
-    width: 50%;
+    width: 100%;
     height: 100%;
     /* background-color: salmon; */
     padding: 2px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     background-color:white;
     border-bottom: 2px solid silver;
 }
@@ -154,7 +154,7 @@ padding: 10px;
     border: none;
     color: black;
     outline: none;
-    width: 50%;
+    width: 100%;
     height: 100%;
     /* background-color: salmon; */
     padding: 2px;

@@ -14,8 +14,7 @@
     font-weight: 700;
     color: #071c54;
 }
-.copage1 p{
-color: silver;
+.copage1 p{  color: rgb(119, 119, 119);
 margin-top: -40px;
 }
 .copage2{
@@ -28,6 +27,9 @@ margin-top: -40px;
     flex-direction: column;
     gap: 2px;
 }
+.twelth p{
+    color: rgb(119, 119, 119);
+}
 .first{
     width: 80%;
     height: 45%;
@@ -38,6 +40,7 @@ margin-top: -40px;
 .first p{
     font-size: 13px;
     line-height: 19px;
+    color: rgb(119, 119, 119);
 }
 .second{
     width: 80%;
@@ -49,6 +52,7 @@ margin-top: -40px;
 .second p{
     font-size: 13px;
     line-height: 19px;
+    color: rgb(119, 119, 119);
 }
 .third{
     width: 80%;
@@ -60,6 +64,7 @@ margin-top: -40px;
 .third p{
     font-size: 13px;
     line-height: 19px;
+    color: rgb(119, 119, 119);
     font-weight: 300;
 }
 .fourth{
@@ -72,6 +77,7 @@ margin-top: -40px;
 .fourth p{
     font-size: 13px;
     line-height: 19px;
+    color: rgb(119, 119, 119);
 }
 .fifth{
     width: 80%;
@@ -83,6 +89,7 @@ margin-top: -40px;
 .fifth p{
     font-size: 13px;
     line-height: 19px;
+    color: rgb(119, 119, 119);
 }
 .sixth{
     width: 80%;
@@ -94,6 +101,7 @@ margin-top: -40px;
 .sixth p{
     font-size: 13px;
     line-height: 19px;
+    color: rgb(119, 119, 119);
 }
 .seventh{
     width: 80%;
@@ -105,6 +113,7 @@ margin-top: -40px;
 .seventh p{
     font-size: 13px;
     line-height: 19px;
+    color: rgb(119, 119, 119);
 }
 .eighth{
     width: 80%;
@@ -116,6 +125,7 @@ margin-top: -40px;
 .eighth p{
     font-size: 13px;
     line-height: 19px;
+    color: rgb(119, 119, 119);
 }
 .ninth{
     width: 80%;
@@ -127,6 +137,7 @@ margin-top: -40px;
 .ninth p{
     font-size: 13px;
     line-height: 19px;
+    color: rgb(119, 119, 119);
 }
 .tenth{
     width: 80%;
@@ -138,6 +149,7 @@ margin-top: -40px;
 .tenth p{
     font-size: 13px;
     line-height: 19px;
+    color: rgb(119, 119, 119);
 }
 .eleventh{
     width: 80%;
@@ -149,6 +161,7 @@ margin-top: -40px;
 .eleventh p{
     font-size: 13px;
     line-height: 19px;
+    color: rgb(119, 119, 119);
 }
 .twelth{
     width: 80%;
@@ -160,6 +173,7 @@ margin-top: -40px;
 .twelth p{
     font-size: 13px;
     line-height: 19px;
+    color: rgb(119, 119, 119);
 }
 .thirteenth{
     width: 80%;
@@ -171,6 +185,7 @@ margin-top: -40px;
 .thirteenth p{
     font-size: 13px;
     line-height: 19px;
+    color: rgb(119, 119, 119);
 }
 .fourteen{
     width: 80%;
@@ -182,13 +197,14 @@ margin-top: -40px;
 .fourteen p{
     font-size: 13px;
     line-height: 19px;
+    color: rgb(119, 119, 119);
 }
 .fifteen{
     width: 80%;
     height: 25%;
     /* background-color: aqua; */
     font-family: "Gilroy";
-    color: silver;
+    color: rgb(119, 119, 119);
 }
 .fifteen p{
     font-size: 13px;

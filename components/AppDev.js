@@ -83,8 +83,8 @@ const AppDev = () => {
 <div className={styles.adpage3}>
     <div className={styles.adthreeleft}>
         <h1 style={{color:"#071c54"}} >We Built The App That <br />Everyone Love</h1>
-        <p style={{color:"silver"}} >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500sLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-        <p style={{color:"silver"}} >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+        <p  >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500sLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+        <p  >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
         <button className={styles.appdevem} >Explore More</button>
     </div>
     <div className={styles.adthreeright}>
@@ -94,7 +94,7 @@ const AppDev = () => {
 
 <div className={styles.adpage4}>
     <h1 style={{marginLeft:"11vw" ,  color:"#11235d"}} className={styles.success} >Successful & Counting</h1>
-    <p style={{marginLeft:"11vw" , marginTop:"-10px" , color:"silver" }}  className={styles.experience} >Experience the power of success! Our platform has been used and endorsed by hundreds of satisfied users.</p>
+    <p style={{marginLeft:"11vw" , marginTop:"-10px" }}  className={styles.experience} >Experience the power of success! Our platform has been used and endorsed by hundreds of satisfied users.</p>
     <div className={styles.adpage4down}>
 <div className={styles.adpage4downcard}>
     <img src="/check.png" alt="" />
