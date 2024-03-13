@@ -1581,4 +1581,16 @@ padding: 2px;
 .gst{
   width: 100%;
 }
+.main3{
+  /* background-color: red; */
+  height: fit-content;
+  margin-bottom: -920px;
+}
+.fivecenterleft{
+  /* background-color: aqua; */
+  width: 100%;
+}
+.main12right{
+  width: 90%;
+}
 }

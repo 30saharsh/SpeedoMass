@@ -9,7 +9,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Loader from "./Loader";
 const Home = () => {
-
+  
   const server = process.env.NODE_BACKEND_URL;
   const clientReviews = [
     {
