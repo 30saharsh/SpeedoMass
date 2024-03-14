@@ -354,6 +354,7 @@ border-radius: 20px;
   .bpage1{
     /* background-color: red; */
     height: fit-content;
+    margin-bottom: -90px;
   }
   .bpagemiddle{
     width: 100%;

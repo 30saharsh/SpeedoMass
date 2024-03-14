@@ -343,6 +343,10 @@ border: 1px solid silver;
 
 @media (max-width:568px) {
 
+  .page1{
+    height: fit-content;
+    /* background-color: aqua; */
+  }
   .servicesheading{
     font-size: 50px;
   }

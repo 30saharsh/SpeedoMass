@@ -1,8 +1,7 @@
 {
+  "/services/page": "app/services/page.js",
+  "/blog/page": "app/blog/page.js",
   "/contact/page": "app/contact/page.js",
   "/joinus/page": "app/joinus/page.js",
-  "/wd/page": "app/wd/page.js",
-  "/services/page": "app/services/page.js",
-  "/appdev/page": "app/appdev/page.js",
   "/page": "app/page.js"
 }
