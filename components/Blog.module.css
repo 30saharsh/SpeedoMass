@@ -1,362 +1,349 @@
-.bpage1{
-    width: 100%;
-    height: 60vh;
-    /* background-color: red; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    font-family: "Gilroy";
+.bpage1 {
+  width: 100%;
+  height: 60vh;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Gilroy";
 }
-.bpage1 h1{
-    font-family: "Gilroy";
-    font-size: 62px;
-    font-weight: 700;
-    color: #071c54;
+.bpage1 h1 {
+  font-family: "Gilroy";
+  font-size: 62px;
+  font-weight: 700;
+  color: #071c54;
 }
-.bpage1 p{
-color: silver;
-margin-top: -40px;
+.bpage1 p {
+  color: silver;
+  margin-top: -40px;
 }
 
-.aboutpage5{
-    width: 100%;
-    height: 100vh;
-    /* background-color: purple; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: -20px;
+.aboutpage5 {
+  width: 100%;
+  height: 100vh;
+  /* background-color: purple; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -20px;
 }
-.aboutpage5center{
-    width: 70%;
-    height: 50%;
-    border-radius: 45px;
-    background: linear-gradient(to right, #0d3bbc, #11235d);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    color: #FFF;
-    font-family: "Gilroy";
+.aboutpage5center {
+  width: 70%;
+  height: 50%;
+  border-radius: 45px;
+  background: linear-gradient(to right, #0d3bbc, #11235d);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  font-family: "Gilroy";
 }
-.aboutpage5inputs{
-    width: 85%;
-    height: 20%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.aboutpage5inputs {
+  width: 85%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 
-    /* background-color: red; */
+  /* background-color: red; */
 }
 .aboutpage5inputs input {
-border: none;
-padding: 19px;
-border-radius: 32px;
-color: rgb(255, 255, 255);
-outline: none;
-background-color:transparent; /* Set a semi-transparent white background */
-backdrop-filter: blur(5px);
-border: 2px solid silver;
-}  
+  border: none;
+  padding: 19px;
+  border-radius: 32px;
+  color: rgb(255, 255, 255);
+  outline: none;
+  background-color: transparent; /* Set a semi-transparent white background */
+  backdrop-filter: blur(5px);
+  border: 2px solid silver;
+}
 
 .aboutpage5inputs input[type="text"]::placeholder {
-    color: #FFF; /* Set your desired color here */
-  }
-  .aboutpage5inputs input[type="email"]::placeholder {
-    color: #FFF; /* Set your desired color here */
-  }
-  
-.aboutemailinput{
-    width: 250px;
-    color: #fff;
-    outline: none;
+  color: #fff; /* Set your desired color here */
 }
-.aboutsubs{
-    width: 160px;
-    height: 45px;
-    border: none;
-    outline: none;
-    border-radius: 32px;
-background-color: #fff;
-    color: #11235d;
-    font-weight: 900;
-    padding: 5px;
-    font-family: "Gilroy";
-}
-.bpage2{
-    width: 100%;
-    height: 150vh;
-    /* background-color: purple; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+.aboutpage5inputs input[type="email"]::placeholder {
+  color: #fff; /* Set your desired color here */
 }
 
+.aboutemailinput {
+  width: 250px;
+  color: #fff;
+  outline: none;
+}
+.aboutsubs {
+  width: 160px;
+  height: 45px;
+  border: none;
+  outline: none;
+  border-radius: 32px;
+  background-color: #fff;
+  color: #11235d;
+  font-weight: 900;
+  padding: 5px;
+  font-family: "Gilroy";
+}
+.bpage2 {
+  width: 100%;
+  height: 150vh;
+  /* background-color: purple; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 
-
-.main10{
-    width: 100%;
-    height: 90vh;
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    gap: 2vw;
-    /* background-color: pink; */
-  }
-  
-.main11{
+.main10 {
   width: 100%;
   height: 90vh;
   display: flex;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
+  gap: 2vw;
+  /* background-color: pink; */
+}
+
+.main11 {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 2vw;
   margin-top: -120px;
   /* background-color: pink; */
 }
-  .main10card1{
-    width: 27vw;
+.main10card1 {
+  width: 27vw;
   height: 53vh;
   border-radius: 25px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
   /* background: linear-gradient(to right, #0d3bbc, #11235d); */
   font-family: "Gilroy";
-  }
-  .main10upper{
-    width: 100%;
-    height: 70%;
-    background-color: silver;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-  }
-  
-  .main10card1 img{
-    width: 30px;
-    height: 30px;
-  }
-  .profile{
-    width: 100%;
-    /* background-color: yellowgreen; */
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-bottom: 1vw;
-  }
-  .profiledata{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 10px;
-   
-  }
-  .profiledata p{
-    font-size: 12px;
-    color: silver;
-  }
-  .main10upper img{
-    width: 100%;
-    height: 100%;
-  }
-  .main10upper button{
-    position: absolute;
-    margin-left: 35px;
-    margin-top: 30px;
-    border: none;
-    outline: none;
-    background-color: #fff;
-    border-radius: 12px;
-    padding: 9px;
-  }
+}
+.main10upper {
+  width: 100%;
+  height: 70%;
+  background-color: silver;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
 
+.main10card1 img {
+  width: 30px;
+  height: 30px;
+}
+.profile {
+  width: 100%;
+  /* background-color: yellowgreen; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 1vw;
+}
+.profiledata {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+}
+.profiledata p {
+  font-size: 12px;
+  color: silver;
+}
+.main10upper img {
+  width: 100%;
+  height: 100%;
+}
+.main10upper button {
+  position: absolute;
+  margin-left: 35px;
+  margin-top: 30px;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 9px;
+}
 
-  .bpagemiddle{
-width: 100%;
-height: 100vh;
-/* background-color: rebeccapurple; */
-margin-top: 120px;
-border-bottom: 2px solid silver;
-display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: column;
-  }
-  .bgmup{
-    width: 80%;
-    height: 10%;
-    /* background-color: red; */
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    gap: 30px;
-  }
-  .search{
-    width: 45%;
-    height: 90%;
-    border: 2px solid silver;
-    border-radius: 20px;
-    display: flex;
-    align-items:center;
-    justify-content: space-around;
-  }
-  .search input{
-    background-color: transparent;
-width: 90%;
-border: none;
-outline: none;
-height: 90%;
-padding: 25px;
-border-radius: 20px;
+.bpagemiddle {
+  width: 100%;
+  height: 100vh;
+  /* background-color: rebeccapurple; */
+  margin-top: 120px;
+  border-bottom: 2px solid silver;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.bgmup {
+  width: 80%;
+  height: 10%;
+  /* background-color: red; */
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  gap: 30px;
+}
+.search {
+  width: 45%;
+  height: 90%;
+  border: 2px solid silver;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.search input {
+  background-color: transparent;
+  width: 90%;
+  border: none;
+  outline: none;
+  height: 90%;
+  padding: 25px;
+  border-radius: 20px;
+}
+.search img {
+  margin-right: 20px;
+}
+.bgmup button {
+  width: 170px;
+  height: 45px;
+  color: #071c54;
+  border: 2px solid silver;
+  border-radius: 17px;
+  background-color: transparent;
+}
+.bgmdown {
+  width: 80%;
+  height: 90%;
+  /* background-color: yellowgreen; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bgmdownleft {
+  width: 55%;
+  height: 100%;
+  /* background-color: aquamarine; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.bgmdownright {
+  width: 45%;
+  height: 100%;
+  /* background-color: yellow; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
 
-  }
-  .search img{
-    margin-right: 20px;
-  }
-  .bgmup button{
-    width: 170px;
-    height: 45px;
-    color: #071c54;
-    border: 2px solid silver;
-    border-radius: 17px;
-    background-color: transparent;
-  }
-  .bgmdown{
-    width: 80%;
-    height: 90%;
-    /* background-color: yellowgreen; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .bgmdownleft{
-    width: 55%;
-    height: 100%;
-    /* background-color: aquamarine; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-  .bgmdownright{
-    width: 45%;
-    height: 100%;
-    /* background-color: yellow; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 15px;
-  }
-
-
-  
-  .main10card12{
-    width: 95%;
-  height:75%;
+.main10card12 {
+  width: 95%;
+  height: 75%;
   border-radius: 25px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
   /* background: linear-gradient(to right, #0d3bbc, #11235d); */
   font-family: "Gilroy";
-  }
-  .main10upper{
-    width: 100%;
-    height: 70%;
-    background-color: silver;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-  }
-  
-  .main10card1 img{
-    width: 30px;
-    height: 30px;
-  }
-  .profile{
-    width: 100%;
-    /* background-color: yellowgreen; */
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-bottom: 1vw;
-  }
-  .profiledata{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 10px;
-   
-  }
-  .profiledata p{
-    font-size: 12px;
-    color: silver;
-  }
-  .main10upper img{
-    width: 100%;
-    height: 100%;
-  }
-  .main10upper button{
-    position: absolute;
-    margin-left: 35px;
-    margin-top: 30px;
-    border: none;
-    outline: none;
-    background-color: #fff;
-    border-radius: 12px;
-    padding: 9px;
-  }
+}
+.main10upper {
+  width: 100%;
+  height: 70%;
+  background-color: silver;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
 
+.main10card1 img {
+  width: 30px;
+  height: 30px;
+}
+.profile {
+  width: 100%;
+  /* background-color: yellowgreen; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 1vw;
+}
+.profiledata {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+}
+.profiledata p {
+  font-size: 12px;
+  color: silver;
+}
+.main10upper img {
+  width: 100%;
+  height: 100%;
+}
+.main10upper button {
+  position: absolute;
+  margin-left: 35px;
+  margin-top: 30px;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 9px;
+}
 
-  
-  .main10card13{
-    width: 95%;
-  height:22%;
+.main10card13 {
+  width: 95%;
+  height: 22%;
   border-radius: 25px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
   /* background: linear-gradient(to right, #0d3bbc, #11235d); */
   font-family: "Gilroy";
-  }
+}
 
+.profile {
+  width: 100%;
+  /* background-color: yellowgreen; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 1vw;
+}
+.profiledata {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+}
+.profiledata p {
+  font-size: 12px;
+  color: silver;
+}
 
-  .profile{
-    width: 100%;
-    /* background-color: yellowgreen; */
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-bottom: 1vw;
-  }
-  .profiledata{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 10px;
-   
-  }
-  .profiledata p{
-    font-size: 12px;
-    color: silver;
-  }
-
-  @media(max-width:568px){
-  
-  .bpage1{
+@media (max-width: 568px) {
+  .bpage1 {
     /* background-color: red; */
     height: fit-content;
     margin-bottom: -90px;
   }
-  .bpagemiddle{
+  .bpagemiddle {
     width: 100%;
     height: fit-content;
     display: flex;
@@ -364,103 +351,102 @@ border-radius: 20px;
     justify-content: center;
     flex-direction: column;
   }
-  .bgmup{
+  .bgmup {
     width: 100%;
     height: 20%;
     display: flex;
     align-items: center;
     justify-content: center;
-
+    background-color: green;
   }
-.bgmup button{
-  width: fit-content;
-  height: fit-content;
-  font-size: 8px;
-}
-.search{
-  width: 60px;
-  height: 20px;
-  display: none;
-}
-.search img{
-  width: 50px;
-  height: 20px; 
-}
-.search input{
-  /* background-color: yellow; */
-  width: 100%;
-  height: 100%;
-}
-.bgmdown{
-  width: 100%;
-  height: fit-content;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-
+  .bgmup button {
+    width: fit-content;
+    height: fit-content;
+    font-size: 8px;
   }
-  .bgmdownleft{
+  .search {
+    width: 60px;
+    height: 20px;
+    display: none;
+  }
+  .search img {
+    width: 50px;
+    height: 20px;
+  }
+  .search input {
+    /* background-color: yellow; */
+    width: 100%;
+    height: 100%;
+  }
+  .bgmdown {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .bgmdownleft {
     /* background-color: burlywood; */
     width: 90%;
   }
-  .bgmdownright{
+  .bgmdownright {
     /* background-color: burlywood; */
     width: 90%;
   }
-.main10{
-  width: 100%;
-  height: fit-content;
-  margin-top: 1250px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-}
-.main11{
-  margin-top: 30px;
-  width: 100%;
-  height: fit-content;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-}
-.main10card1{
-  /* background-color: red; */
-  width: 90%;
-}
-.aboutpage5inputs{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 25px;
-}
-.aboutpage5{
-  width: 100%;
+  .main10 {
+    width: 100%;
+    height: fit-content;
+    margin-top: 1250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .main11 {
+    margin-top: 30px;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .main10card1 {
+    /* background-color: red; */
+    width: 90%;
+  }
+  .aboutpage5inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .aboutpage5 {
+    width: 100%;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* background-color: red; */
-  margin-top: 1200px;
-}
-.aboutpage5inputs input{
-  width: 100%;
-}
-.aboutpage5center{
-  width: 100%;
-  height: 70%;
-  gap: 35px;
-  background-color: pink;
-}
-.aboutpage5center p{
-display: none;
-}
-.aboutsubs{
-  width: 100%;
-  height: 30%;
-}
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+    margin-top: 1200px;
+  }
+  .aboutpage5inputs input {
+    width: 100%;
+  }
+  .aboutpage5center {
+    width: 100%;
+    height: 70%;
+    gap: 35px;
+    background-color: pink;
+  }
+  .aboutpage5center p {
+    display: none;
+  }
+  .aboutsubs {
+    width: 100%;
+    height: 30%;
+  }
 }
