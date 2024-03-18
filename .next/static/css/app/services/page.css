@@ -783,6 +783,8 @@ border: 1px solid silver;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: -190px;
+    margin-bottom: -90px;
   }
   .Services_page3techleft__jTTP2{
     width: 100%;
@@ -791,6 +793,9 @@ border: 1px solid silver;
   .Services_page3techleftdown___QbQO{
     width: 100%;
     /* background-color: yellow; */
+  }
+  .Services_page3techleft__jTTP2 h1{
+    font-size: 26px;
   }
   .Services_techinfo__mgxgZ{
     /* background-color: red; */
@@ -869,6 +874,7 @@ border: 1px solid silver;
     width: 230px;
     margin-left: 10px;
   }
+
 }
 
 

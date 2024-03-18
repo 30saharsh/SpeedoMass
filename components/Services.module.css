@@ -390,6 +390,8 @@ border: 1px solid silver;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: -190px;
+    margin-bottom: -90px;
   }
   .page3techleft{
     width: 100%;
@@ -398,6 +400,9 @@ border: 1px solid silver;
   .page3techleftdown{
     width: 100%;
     /* background-color: yellow; */
+  }
+  .page3techleft h1{
+    font-size: 26px;
   }
   .techinfo{
     /* background-color: red; */
@@ -473,6 +478,7 @@ border: 1px solid silver;
     width: 230px;
     margin-left: 10px;
   }
+
 }
 
 
