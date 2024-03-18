@@ -76,6 +76,9 @@
   text-align: center;
   line-height: 19px;
 }
+.page2carddown p{
+  font-size: 13px;
+}
 /* .page2carddown p{
   color: rgb(119, 119, 119);
 } */
