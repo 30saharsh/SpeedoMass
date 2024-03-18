@@ -175,8 +175,10 @@ margin-top: -10px;
 
 .wdpage1{
     width: 100%;
+    height: fit-content;
     text-align: center;
-    margin-top: -40px;
+    /* margin-top: -90px; */
+    /* background-color: red; */
 }
 
 .wdpage1 h1{
@@ -186,8 +188,9 @@ margin-top: -10px;
     height: fit-content;
 }
 .wdpage2{
+    height: 80vh;
     /* background-color: yellowgreen; */
-    margin-top: -80px;
+
 }
 
 .wdpage2center{
@@ -211,7 +214,7 @@ margin-top: -10px;
 }
 .wdpage3left{
 width: 90%;
-height: 500vh;
+height: 400vh;
 text-align: center;
 /* background-color: red; */
 display: flex;
@@ -223,11 +226,13 @@ flex-direction: column;
     /* background-color: red; */
     margin-left: 0px;
     font-size: 30px;
+    margin-top: -110px;
+    display: none;
 }
 .wdpage3right{
  width: 90%;
  height: 100vh;
- margin-top: -200px;
+ margin-top: -100px;
 }
 .know{
     width: 90%;
@@ -255,16 +260,21 @@ font-size: 15px;
 }
 .data{
     margin-top: -70px;
-    height: 30%;
+    height: 90vh;
     width: 100%;
     /* background-color: aqua; */
 }
 .data h3{
     margin-left: 0px;
+    font-size: 25px;
 }
 .data li{
     margin-left: -40px;
     
+}
+.data p{
+    width: 100%;
+    /* background-color: red; */
 }
 .data h1{
     /* margin-left: -60px; */
