@@ -76,8 +76,8 @@
 }
 
 @media (max-width: 568px) {
-  .middle{
-    background-color: red;
+  .nav{
+    height: 13vh;
   }
   .nav img {
     width: 80px;

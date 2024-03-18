@@ -2876,8 +2876,8 @@ position: relative;
 }
 
 @media (max-width: 568px) {
-  .NavBar_middle__NRFPQ{
-    background-color: red;
+  .NavBar_nav__i8le3{
+    height: 13vh;
   }
   .NavBar_nav__i8le3 img {
     width: 80px;
