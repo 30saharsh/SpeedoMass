@@ -410,6 +410,11 @@ border-radius: 30px;
 
   @media (max-width:568px) {
 
+    .adthreeleft{
+        width: 80%;
+        /* background-color: red; */
+    }
+  
 .page1left{
     text-align: center;
     /* background-color: red; */
@@ -467,7 +472,7 @@ border-radius: 30px;
 
 }
 .appdevem{
-    margin-left:30px;
+    margin:auto;
 }
 .adpage4{
     width: 100%;
