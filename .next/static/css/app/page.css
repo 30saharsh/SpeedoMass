@@ -2862,6 +2862,9 @@ position: relative;
 }
 
 @media (max-width: 568px) {
+  .NavBar_middle__NRFPQ{
+    background-color: red;
+  }
   .NavBar_nav__i8le3 img {
     width: 80px;
     height: 30px;
@@ -2874,20 +2877,21 @@ position: relative;
     display: initial;
   }
   .NavBar_menu__LcKYk{
-    width: 100%;
+    width: 97%;
     height: -moz-fit-content;
     height: fit-content;
-background-color: #dadada;
+background-color: #11235d;
     display: flex;
-    gap: 20px;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
+    flex-direction: column;
+    gap: 30px;
     padding: 5px;
+
   }
   .NavBar_menu__LcKYk a{
     text-decoration: none;
-    color: black;
+    color: #fff;
     font-family: "Gilroy";
   }
   .NavBar_join__i4PR4{
