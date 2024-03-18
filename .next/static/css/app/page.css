@@ -888,7 +888,8 @@
   \************************************************************************************************************************************************************************************************************************************************************************/
 .Loader_loader__0RxP_{
     width: 100%;
-    height: 1000vh;
+    height: 2000vh;
+    overflow: hidden;
     background-color: #fff;
     display: flex;
     z-index: 1;
@@ -2883,10 +2884,12 @@ position: relative;
 
   .NavBar_nav__i8le3{
     height: 13vh;
+    /* background-color: rebeccapurple; */
   }
-  .NavBar_nav__i8le3 img {
-    width: 80px;
-    height: 30px;
+  .NavBar_nav__i8le3 img{
+    width: 1%;
+    /* background-color: red; */
+    height: 23px;
     margin-right: -60px;
   }
 
@@ -2897,6 +2900,7 @@ position: relative;
     display: initial;
     border: none;
     margin-left: -60px;
+    background-color: transparent;
   }
   .NavBar_line__YbAeU{
     background-color: #11235d;

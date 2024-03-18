@@ -1,5 +1,8 @@
 {
   "/not-found": "app/not-found.js",
   "/page": "app/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
+  "/joinus/page": "app/joinus/page.js",
+  "/services/page": "app/services/page.js",
+  "/webdev/page": "app/webdev/page.js",
+  "/contact/page": "app/contact/page.js"
 }

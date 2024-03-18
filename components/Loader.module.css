@@ -1,6 +1,7 @@
 .loader{
     width: 100%;
-    height: 1000vh;
+    height: 2000vh;
+    overflow: hidden;
     background-color: #fff;
     display: flex;
     z-index: 1;

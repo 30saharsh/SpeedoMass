@@ -1,7 +1,7 @@
 import './globals.css'
 
 export const metadata = {
-  title: 'SpeedoMass | Homepage',
+  title: 'SpeedoMass Living Innovation Your Trusted IT Soluiton Service Provider',
   description: 'This is SpeedoMass Living Innovation',
 }
 

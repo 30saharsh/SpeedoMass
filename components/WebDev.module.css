@@ -375,6 +375,10 @@ border-radius: 30px;
     flex-direction: column;
     /* background-color: red; */
 }
+.wdpage1left p{
+    width: 100%;
+    /* background-color: greenyellow; */
+}
 .wdpage1left h1{
   font-size: 45px;
 }
