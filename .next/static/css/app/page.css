@@ -2285,8 +2285,8 @@ margin-left: 11vw;
   justify-content: center;
   margin-top: -80px;
   margin-right: 50px;
-  width: 60%;
-
+  width: 100%;
+/* background-color: aqua; */
 }
 .Home_right__3qOOI{
 /* background-color: yellow; */
@@ -2332,9 +2332,12 @@ font-size: 14px;
 .Home_main2right__UJ_0H{
 display: none;
 }
+.Home_main2left__nZSfo {
+  width: 70%;
+  /* background-color: aqua; */
+}
 .Home_awards__MetVZ{
-  width: -moz-fit-content;
-  width: fit-content;
+  width: 100%;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -2342,17 +2345,18 @@ flex-direction: column;
 /* background-color: yellowgreen; */
 }
 .Home_prof__DlO6l{
-  width: -moz-fit-content;
-  width: fit-content;
+  width: 100%;
 display: flex;
 align-items: center;
 justify-content: center;
 flex-direction: column;
+margin-top: 12px;
+margin-bottom: 12px;
 /* background-color: yellowgreen; */
 }
 .Home_sap__d3Iec{
 text-align: center;
-margin-left: 9vw;
+margin: auto;
 }
 .Home_main3top__E3sBP{
   display: flex;
@@ -2376,13 +2380,18 @@ margin-left: 9vw;
   justify-content: center;
 
 }
+.Home_m3mright__65nJf{
+  width: 100%;
+  /* background-color: rebeccapurple; */
+}
 .Home_hereleft__QGmBm{
+  width: 90%;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-
+/* background-color: red; */
 }
 .Home_hereright__X4wNx{
 display: none;
@@ -2720,6 +2729,11 @@ padding: 2px;
 }
 .Home_mruboxw2__Ey0_f:hover{
   width: 90%;
+}
+.Home_weBuilt__Sr5Tv{
+  font-size: 28px;
+  width: 100%;
+  /* background-color: red; */
 }
 
 }
