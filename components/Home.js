@@ -323,7 +323,7 @@ const Home = () => {
           fontFamily: "Gilroy",
           color: "#11235d",
           marginLeft: "11vw",
-          marginBottom: "-3vw",
+          marginBottom: "-2vw",
           marginTop: "5vw",
         }}
       >
@@ -331,71 +331,57 @@ const Home = () => {
       </h1>
 
       <div className={styles.main4}>
-        <div className={styles.main4box}>
-          <div className={styles.upper}>
-            <div className={styles.phonecontainer}>
-              <img src="/phonelogo.png" alt="" />
-            </div>
-            <h3>
-              <span className={styles.heading3}>Mobile App</span>
-              <br />
-              <b>Development</b>
-            </h3>
-          </div>
-          <div className={styles.lower}>
-            <p>
+      <div className={styles.mruboxw}>
+        <div className={styles.mruboxwup}>
+
+        <div className={styles.mruboxwcircle}> <img src="/phonelogo.png" alt="" /></div>
+        <div className={styles.mruboxwhead}>
+          <p>Mobile App  <br /> <b>Development</b> </p>
+        </div>
+        </div>
+        
+            
+              <p>
               Crafting seamless experiences that reside in your
-              <br />
-              users' pockets. Our mobile app development team
-              <br />
-              breathes life into your ideas, ensuring user-friendly
-              <br />
-              interfaces and cutting-edge functionality. Elevate
-              <br />
-              your brand with apps that captivate and convert.
-            </p>
-          </div>
-        </div>
-        <div className={styles.main4box2}>
-          <div className={styles.upperbox2}>
-            <div className={styles.phonecontainerbox2}>
-              <img src="/vectorw.png" alt="" />
+users' pockets. Our mobile app development team
+breathes life into your ideas, ensuring user-friendly
+interfaces and cutting-edge functionality. Elevate
+your brand with apps that captivate and convert.
+              </p>
             </div>
-            <h3>
-              <span className={styles.heading3box2}>Website</span>
-              <br />
-              <b>Development</b>
-            </h3>
-          </div>
-          <div className={styles.lowerbox2}>
-            <p>
-              In the digital landscape, we guide your brand to new heights.
-              Tailored strategies amplify your voice, engage your audience, and
-              drive conversions. From SEO to PPC campaigns, we boost your online
-              visibilit
-            </p>
-          </div>
+            <div className={styles.mruboxw1}>
+        <div className={styles.mruboxwup1}>
+
+        <div className={styles.mruboxwcircle1}> <img src="/vectorw.png" alt="" /></div>
+        <div className={styles.mruboxwhead1}>
+          <p>Website  <br /> <b>Development</b> </p>
         </div>
-        <div className={styles.main4box3}>
-          <div className={styles.upperbox3}>
-            <div className={styles.phonecontainerbox3}>
-              <img src="/vectorspeaker.png" alt="" />
+        </div>
+        
+            
+              <p>
+              In the digital landscape, we guide your brand to new heights. Tailored strategies amplify your voice, engage your audience, and drive conversions. From SEO to PPC campaigns, we boost your online visibilit
+              </p>
             </div>
-            <h3>
-              <span className={styles.heading3box2}>Digital</span>
-              <br />
-              <b>Marketing</b>
-            </h3>
-          </div>
-          <div className={styles.lowerbox2}>
-            <p>
-              In the digital landscape, we guide your brand to new heights.
-              Tailored strategies amplify your voice, engage your audience, and
-              drive conversions. From SEO to PPC campaigns, we boost your online
-              visibilit
-            </p>
-          </div>
+            <div className={styles.mruboxw2}>
+        <div className={styles.mruboxwup2}>
+
+        <div className={styles.mruboxwcircle2}> <img src="/vectorspeaker.png" alt="" /></div>
+        <div className={styles.mruboxwhead2}>
+          <p>Digital<br /> <b>Marketing</b> </p>
         </div>
+        </div>
+        
+            
+              <p>
+              Crafting seamless experiences that reside in your
+users' pockets. Our mobile app development team
+breathes life into your ideas, ensuring user-friendly
+interfaces and cutting-edge functionality. Elevate
+your brand with apps that captivate and convert.
+              </p>
+            </div>
+          
       </div>
 
       <div className={styles.main5}>

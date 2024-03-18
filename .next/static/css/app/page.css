@@ -1547,6 +1547,177 @@ padding: 12px;
 margin-left: 7.7vw;
 }
 
+.Home_mruboxw__ou49O{
+  width: 23%;
+  height: 65%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  /* background: linear-gradient(to right, #0d3bbc, #11235d); */
+  /* border: 2px solid silver; */
+  /* background-color: #FAFAFA; */
+  border: 2px solid silver;
+  padding: 15px;
+  font-family: "Gilroy";
+}
+.Home_mruboxwup__uUj7X{
+  width: 100%;
+  height: 30%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.Home_mruboxwhead__LEmai p{
+  font-size: 18px;
+}
+.Home_mruboxwcircle__azddK{
+  width: 20%;
+  height: 80%;
+  background-color: #6081DA;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Home_mruboxwup__uUj7X img{
+  width: 70%;
+  height: 80%;
+}
+.Home_mruboxw__ou49O:hover{
+  width: 23%;
+  height: 65%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1px;
+  justify-content: center;
+  background: linear-gradient(to right, #0d3bbc, #11235d);
+  border: 2px solid silver;
+  padding: 15px;
+  color: #fff;
+  transition: cubic-bezier(0.19, 1, 0.22, 1) 1s all;
+  font-family: "Gilroy";
+  cursor: pointer;
+}
+.Home_mruboxw1__vuUer{
+  width: 23%;
+  height: 65%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  /* background: linear-gradient(to right, #0d3bbc, #11235d); */
+  /* border: 2px solid silver; */
+  /* background-color: #FAFAFA; */
+  border: 2px solid silver;
+  padding: 15px;
+  font-family: "Gilroy";
+}
+.Home_mruboxwup1__O9PVn{
+  width: 100%;
+  height: 30%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.Home_mruboxwhead1__Ud_qV p{
+  font-size: 18px;
+}
+.Home_mruboxwcircle1___H5YH{
+  width: 20%;
+  height: 80%;
+  background-color: #11235d;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Home_mruboxwup1__O9PVn img{
+  width: 70%;
+  height: 80%;
+}
+.Home_mruboxw1__vuUer:hover{
+  width: 23%;
+  height: 65%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1px;
+  justify-content: center;
+  background: linear-gradient(to right, #0d3bbc, #11235d);
+  border: 2px solid silver;
+  padding: 15px;
+  color: #fff;
+  transition: cubic-bezier(0.19, 1, 0.22, 1) 1s all;
+  font-family: "Gilroy";
+  cursor: pointer;
+}
+.Home_mruboxw2__Ey0_f{
+  width: 23%;
+  height: 65%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  /* background: linear-gradient(to right, #0d3bbc, #11235d); */
+  /* border: 2px solid silver; */
+  /* background-color: #FAFAFA; */
+  border: 2px solid silver;
+  padding: 15px;
+  font-family: "Gilroy";
+}
+.Home_mruboxwup2__fy34X{
+  width: 100%;
+  height: 30%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.Home_mruboxwhead2__NT9mM p{
+  font-size: 18px;
+}
+.Home_mruboxwcircle2__6S8He{
+  width: 20%;
+  height: 80%;
+  background-color: #11235d;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Home_mruboxwup2__fy34X img{
+  width: 70%;
+  height: 80%;
+}
+.Home_mruboxw2__Ey0_f:hover{
+  width: 23%;
+  height: 65%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1px;
+  justify-content: center;
+  background: linear-gradient(to right, #0d3bbc, #11235d);
+  border: 2px solid silver;
+  padding: 15px;
+  color: #fff;
+  transition: cubic-bezier(0.19, 1, 0.22, 1) 1s all;
+  font-family: "Gilroy";
+  cursor: pointer;
+}
 .Home_main7right__TTdOa{
   width: 45%;
 height: 90%;
@@ -2532,6 +2703,25 @@ padding: 2px;
 .Home_main12right___6rZb{
   width: 90%;
 }
+.Home_mruboxw__ou49O{
+  width: 90%;
+}
+.Home_mruboxw__ou49O:hover{
+  width: 90%;
+}
+.Home_mruboxw1__vuUer{
+  width: 90%;
+}
+.Home_mruboxw1__vuUer:hover{
+  width: 90%;
+}
+.Home_mruboxw2__Ey0_f{
+  width: 90%;
+}
+.Home_mruboxw2__Ey0_f:hover{
+  width: 90%;
+}
+
 }
 
 /*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
