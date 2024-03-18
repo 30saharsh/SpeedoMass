@@ -48,7 +48,7 @@ const Footer = () => {
       </div>
       <div className={styles.footerlow}>
         <p>
-          Copyright © 2023 speedomass | All rights reserved designed by SpeedoMass
+          Copyright © 2023 SpeedoMass | All rights reserved designed by SpeedoMass
         </p>
       </div>
     </div>

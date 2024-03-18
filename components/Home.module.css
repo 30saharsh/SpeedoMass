@@ -1353,7 +1353,7 @@ margin-left: 11vw;
   text-align: center;
 }
 .main h1{
-  font-size: 30px;
+  font-size: 25px;
   margin-top: 34px;
 }
 .left{
@@ -1516,11 +1516,24 @@ font-size: 12px;
   justify-content: center;
   flex-direction: column;
 }
+.main5{
+  /* background-color: red; */
+  height: fit-content;
+}
+.fivecenter{
+  height: 100%;
+  width: 100%;
+  /* background-color: rebeccapurple; */
+  margin-top: 60px;
+}
 .fivecenterright{
   display: none;
 }
+.fivecenterleft{
+  /* background-color: greenyellow; */
+}
 .main6{
-  margin-top: 60vh;
+  margin-top: 10vh;
   width: 100%;
   height: fit-content;
   /* background-color: aqua; */

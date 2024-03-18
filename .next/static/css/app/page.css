@@ -2276,7 +2276,7 @@ margin-left: 11vw;
   text-align: center;
 }
 .Home_main___p8_d h1{
-  font-size: 30px;
+  font-size: 25px;
   margin-top: 34px;
 }
 .Home_left__toCo8{
@@ -2444,11 +2444,25 @@ font-size: 12px;
   justify-content: center;
   flex-direction: column;
 }
+.Home_main5__Lwy2C{
+  /* background-color: red; */
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.Home_fivecenter__JlwBo{
+  height: 100%;
+  width: 100%;
+  /* background-color: rebeccapurple; */
+  margin-top: 60px;
+}
 .Home_fivecenterright__pymw0{
   display: none;
 }
+.Home_fivecenterleft__T0OHW{
+  /* background-color: greenyellow; */
+}
 .Home_main6__vNr6m{
-  margin-top: 60vh;
+  margin-top: 10vh;
   width: 100%;
   height: -moz-fit-content;
   height: fit-content;
