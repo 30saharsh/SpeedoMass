@@ -3,3 +3,8 @@
     height: 100vh;
     /* background-color: aqua; */
 }
+@font-face {
+    font-family: 'Gilroy';
+    src: url('/fonts/Gilroy-Light.otf') format('opentype');
+    /* Add other font properties as needed */
+  }
