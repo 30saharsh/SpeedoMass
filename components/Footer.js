@@ -34,9 +34,8 @@ const Footer = () => {
         </div>
         <div className={styles.section4}>
           <h3 style={{ marginBottom: "25px" }}>Get In touch with us</h3>
-          <p style={{ marginBottom: "-3px" }}>Phone: +91 134 123456</p>
-          <p style={{ marginBottom: "-7px" }}>
-            Email: info@Info@speedomassco mmunication.com
+          <p style={{ marginBottom: "-3px" }}>Phone:</p>
+          <p style={{ marginBottom: "-7px" }}>Email:
           </p>
           <p>Location: G 223 hub town near modhera circle Mahesana, India</p>
           <div className={styles.icons}>
@@ -49,8 +48,7 @@ const Footer = () => {
       </div>
       <div className={styles.footerlow}>
         <p>
-          Copyright © 2023 speedomass | All rights reserved designed by Syed
-          Sameed Ali
+          Copyright © 2023 speedomass | All rights reserved designed by SpeedoMass
         </p>
       </div>
     </div>

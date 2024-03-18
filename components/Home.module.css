@@ -1367,7 +1367,7 @@ margin-left: 11vw;
 /* background-color: aqua; */
 }
 .right{
-/* background-color: yellow; */
+
 width: 100%;
 }
 .discover{
@@ -1376,6 +1376,7 @@ width: 100%;
 .rmain{
   width: 90%;
   margin-top: 20px;
+  height: fit-content;
 }
 .rmain input{
 font-size: 14px;
@@ -1383,10 +1384,11 @@ font-size: 14px;
 .form1{
   width: 80%;
   /* background-color: pink; */
+  height: 80%;
   padding: 10px;
 }
 .form1 input{
-  width: 100px;
+  width: 100%;
   border: none;
   border-bottom: 1px solid white;
   background-color: transparent;
@@ -1395,7 +1397,7 @@ font-size: 14px;
   color: #fff;
 }
 .request{
-  width: 60%;
+  width: 100%;
 }
 .main2{
   width: 100%;

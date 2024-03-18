@@ -2289,7 +2289,7 @@ margin-left: 11vw;
 /* background-color: aqua; */
 }
 .Home_right__3qOOI{
-/* background-color: yellow; */
+
 width: 100%;
 }
 .Home_discover__O04Fm{
@@ -2298,6 +2298,8 @@ width: 100%;
 .Home_rmain__JLxKv{
   width: 90%;
   margin-top: 20px;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 .Home_rmain__JLxKv input{
 font-size: 14px;
@@ -2305,10 +2307,11 @@ font-size: 14px;
 .Home_form1__edAjw{
   width: 80%;
   /* background-color: pink; */
+  height: 80%;
   padding: 10px;
 }
 .Home_form1__edAjw input{
-  width: 100px;
+  width: 100%;
   border: none;
   border-bottom: 1px solid white;
   background-color: transparent;
@@ -2317,7 +2320,7 @@ font-size: 14px;
   color: #fff;
 }
 .Home_request__REuNK{
-  width: 60%;
+  width: 100%;
 }
 .Home_main2__wMsrq{
   width: 100%;
