@@ -130,7 +130,7 @@ const Home = () => {
           <h1 className={styles.your}>YOUR SOFTWARE</h1>
           <p className={styles.homepara}>
             Welcome to SpeedoMass, Your Gateway to Innovation! At SpeedoMass, we
-            are not just a software agency , we are the architects of
+            are not just a software agency we are the architects of
             technological transformations and the maestros of unforgettable
             events. We pride ourselves on being a dynamic and innovative
             company, dedicated to pushing the boundaries of IT development and
