@@ -150,7 +150,9 @@ const Contact = () => {
                 >
                   <option value="India">India</option>
                   <option value="Pakistan">Pakistan</option>
-                  <option value="USA">USA</option>
+                  <option value="Australia">Australia</option>
+                  <option value="UK">UK</option>
+                  <option value="Canada">Canada</option>
                 </select>
               </div>
               <div className={styles.fourinp}>
