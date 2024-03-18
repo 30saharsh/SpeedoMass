@@ -157,12 +157,15 @@ position: relative;
 }
 
 @media (max-width: 568px) {
+
+
   .NavBar_nav__i8le3{
     height: 13vh;
   }
   .NavBar_nav__i8le3 img {
     width: 80px;
     height: 30px;
+    margin-right: -60px;
   }
 
   .NavBar_middle__NRFPQ {
@@ -170,6 +173,11 @@ position: relative;
   }
   .NavBar_hmbutton__Hyp8l {
     display: initial;
+    border: none;
+    margin-left: -60px;
+  }
+  .NavBar_line__YbAeU{
+    background-color: #11235d;
   }
   .NavBar_menu__LcKYk{
     width: 97%;

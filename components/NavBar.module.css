@@ -76,12 +76,15 @@
 }
 
 @media (max-width: 568px) {
+
+
   .nav{
     height: 13vh;
   }
   .nav img {
     width: 80px;
     height: 30px;
+    margin-right: -60px;
   }
 
   .middle {
@@ -89,6 +92,11 @@
   }
   .hmbutton {
     display: initial;
+    border: none;
+    margin-left: -60px;
+  }
+  .line{
+    background-color: #11235d;
   }
   .menu{
     width: 97%;
