@@ -103,7 +103,7 @@ const Home = () => {
         message: message,
       };
       const response = await axios.post(
-        `${server}/homedata`,
+        `${server}homedata`,
         formData
       );
 
