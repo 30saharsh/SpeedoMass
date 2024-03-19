@@ -28,7 +28,12 @@ const Home = () => {
       author: "Siddhant Choudhery",
       location: "Ahmedabad",
     },
-    // Add more client reviews as needed
+    {
+      text: "SpeedoMass has good IT Services",
+      author: "Hani Mewada",
+      location: "Mehsana",
+    },
+
   ];
 
   const [selectedCategory, setSelectedCategory] = useState(null);
